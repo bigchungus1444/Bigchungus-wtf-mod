@@ -3,7 +3,6 @@ path="mod/Wacky-Tsarist-Fuckery/"
 
 tags={
 	"Alternative History"
-	"Translation"
 	"Ideologies"
 	"Utilities"
 }
