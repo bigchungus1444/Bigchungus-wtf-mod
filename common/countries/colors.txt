@@ -128,8 +128,8 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
-	color = rgb { 145 157 236 }
-	color_ui = rgb { 189 204 255 }
+	color = rgb { 255  85  85 }
+	color_ui = rgb { 255  85  85}
 }
 AST = {
 	color = rgb { 57 143 97 }
@@ -180,8 +180,8 @@ ETH = {
 	color_ui = rgb { 198 169 248 }
 }
 GUA = {
-	color = rgb { 72 49 112 }
-	color_ui = rgb { 72 49 112 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
 HON = {
 	color = rgb { 128 145 65 }
@@ -220,16 +220,16 @@ PAN = {
 	color_ui = rgb { 198 169 248 }
 }
 PER = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 92 147 126 }
+	color = rgb { 71  113  97 }
+	color_ui = rgb { 71  113  97 }
 }
 PHI = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
 PRU = {
-	color = rgb { 196 189 204 }
-	color_ui = rgb { 255 246 255 }
+	color = rgb { 205  85  25  }
+	color_ui = rgb { 205  85  25  }
 }
 SAF = {
 	color = rgb { 195 107 160 }
