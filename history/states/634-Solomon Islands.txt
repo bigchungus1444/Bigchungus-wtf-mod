@@ -3,7 +3,8 @@ state={
 	name="STATE_634"
 
 	history={
-		owner = AST
+		owner = PNG
+		add_core_of = PNG
 		buildings = {
 			infrastructure = 2
 			1269 = {

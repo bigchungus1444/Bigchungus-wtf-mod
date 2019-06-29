@@ -200,7 +200,7 @@ LIB = {
 	color_ui = rgb { 198 169 248 }
 }
 MEX = {
-	color = rgb { 104 152 83 }
+	color = rgb { 30 100 0 }
 	color_ui = rgb { 135 198 108 }
 }
 NEP = {
