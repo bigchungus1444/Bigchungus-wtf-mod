@@ -1,0 +1,2 @@
+PEB = "countries/People's Empire of Britannia.txt"
+PEF = "countries/People's Empire of France.txt"

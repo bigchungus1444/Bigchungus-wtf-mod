@@ -1,0 +1,317 @@
+ideologies = {
+	
+	integralist = {
+	
+		types = {
+			integralist_subtype = { 
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_INTEGRALIST_1" 
+		}
+		
+		color = { 255 170 0 }
+		
+		rules = { 
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5 
+		
+		modifiers = { 
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = -0.5
+			drift_defence_factor = 0
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+	
+	radical_centrist = {
+	
+		types = {
+			radical_centrist_subtype = { 
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_RADICAL_CENTRIST_1"
+		}
+		
+		color = { 0 0 245 }
+		
+		rules = { 
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1
+		faction_impact_on_world_tension = -1
+		
+		modifiers = { 
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = -0.5
+			drift_defence_factor = 0
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_democratic = yes
+	}
+	
+	posaidist = {
+	
+		types = {
+			posaidist_subtype = { 
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_POSAIDIST_1"
+		}
+		
+		color = { 255 0 0 }
+		
+		rules = { 
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = { 
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = -0.5
+			drift_defence_factor = 0.5
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_communist = yes
+	}
+	
+	anarcho_primitivism = {
+	
+		types = {
+			anarcho_primitivism_subtype = { 
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHO_PRIMITIVISM_1"
+		}
+		
+		color = { 224 221 26 }
+		
+		rules = { 
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = { 
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = -0.5
+			drift_defence_factor = 0
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_neutral = yes
+	}
+	
+	nazbol_monarchism = {
+	
+		types = {
+			nazbol_monarchism_subtype = { 
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NAZBOL_MONARCHISM_1"
+		}
+		
+		color = { 0 0 0 }
+		
+		rules = { 
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = { 
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			take_states_cost_factor = -0.5
+			annex_cost_factor = -0.5
+			justify_war_goal_when_in_major_war_time = -0.8
+			drift_defence_factor = 0
+			puppet_cost_factor = -0.5
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_fascism = yes
+	}
+	
+	right_libertarianism = {
+	
+		types = {
+			right_libertarianism_subtype = { 
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_RIGHT_LIBERTARIANISM_1"
+		}
+		
+		color = { 9 205 226 }
+		
+		rules = { 
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = { 
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = -0.5
+			drift_defence_factor = 0
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_democratic = yes
+	}
+	
+	anarcho_capitalism = {
+	
+		types = {
+			anarcho_capitalism_subtype = { 
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHO_CAPITALISM_1"
+		}
+		
+		color = { 9 219 0 }
+		
+		rules = { 
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = { 
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0
+			guarantee_tension = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = -0.5
+			drift_defence_factor = 0
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_democratic = yes
+	}
+}
