@@ -7,7 +7,8 @@ state={
 
 	history={
 		add_core_of = BAS
-		owner = ENG
+		add_core_of = GUA
+		owner = GUA
 		buildings = {
 			infrastructure = 4
 			4450 = {
