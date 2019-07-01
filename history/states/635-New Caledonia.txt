@@ -9,7 +9,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = FRA
+		owner = FIJ
+		add_core_of = FIJ
 		victory_points = {
 			4268 1 
 		}
