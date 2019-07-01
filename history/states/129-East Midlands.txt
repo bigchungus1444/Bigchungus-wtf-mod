@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = PEB	
+		add_core_of = PEB
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

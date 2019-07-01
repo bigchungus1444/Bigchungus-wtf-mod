@@ -7,7 +7,9 @@ state={
 	state_category = city
 
 	history={
-		owner = ENG
+		owner = PEB
+		
+		add_core_of = PEB
 		victory_points = { 271 5 }
 		buildings = {
 			infrastructure = 7

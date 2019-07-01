@@ -6,7 +6,8 @@ state= {
 	state_category = town
 
 	history= {
-		owner = ENG
+		owner = PEB
+		add_core_of = PEB
 		victory_points = { 540 10 }
 		victory_points = { 6526 1 }
 		buildings = {
