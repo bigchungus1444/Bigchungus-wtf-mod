@@ -45,15 +45,15 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	radical_centrist = {
+	radical_centrism = {
 	
 		types = {
-			radical_centrist_subtype = { 
+			radical_centrism_subtype = { 
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_RADICAL_CENTRIST_1"
+			"FACTION_NAME_radical_centrism_1"
 		}
 		
 		color = { 0 0 245 }

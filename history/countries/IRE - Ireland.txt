@@ -68,7 +68,7 @@ set_politics = {
 }
 set_popularities = {
 	right_libertarianism = 80
-	radical_centrist = 20
+	radical_centrism = 20
 }
 
 #1939.1.1 = {
