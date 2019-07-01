@@ -90,15 +90,15 @@ ideologies = {
 		ai_democratic = yes
 	}
 	
-	posaidist = {
+	posadism = {
 	
 		types = {
-			posaidist_subtype = { 
+			posadism_subtype = { 
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_POSAIDIST_1"
+			"FACTION_NAME_posadism_1"
 		}
 		
 		color = { 255 0 0 }
