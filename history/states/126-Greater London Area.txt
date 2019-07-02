@@ -6,8 +6,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = PEB
-		add_core_of = PEB
+		owner = ENG
 		victory_points = {
 			6103 50 
 		}

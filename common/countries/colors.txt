@@ -485,12 +485,6 @@ CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
 }
-
-SCO = {
-	color = rgb { 85 125 250 }
-	color_ui = rgb { 85 125 250 }
-}
-
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
