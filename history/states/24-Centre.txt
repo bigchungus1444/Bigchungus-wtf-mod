@@ -8,7 +8,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = FRA
+		owner = PEF
 		victory_points = {
 			3671 10
 		}
@@ -21,6 +21,7 @@ state={
 
 		}
 		add_core_of = FRA
+		add_core_of = PEF
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

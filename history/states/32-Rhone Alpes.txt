@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = PEF
 		buildings = {
 			infrastructure = 4
 		}
@@ -20,6 +20,7 @@ state={
 			3768 1 
 		}
 		add_core_of = FRA
+		add_core_of = PEF
 	}
 
 	provinces={

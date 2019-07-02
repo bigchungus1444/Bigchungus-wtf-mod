@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = PEF
 		victory_points = {
 			9898 1 
 		}
@@ -23,6 +23,7 @@ state={
 			air_base = 2
 		}
 		add_core_of = FRA
+		add_core_of = PEF
 	}
 
 	provinces={
