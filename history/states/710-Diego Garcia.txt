@@ -6,8 +6,7 @@ state={
 	
 	history=
 	{
-		owner = MLD
-		add_core_of = MLD
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			13019 = {
