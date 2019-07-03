@@ -260,14 +260,19 @@ set_convoys = 400
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = right_libertarianism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = {
-	democratic = 99
-	communism = 1
+set_popularities = {	
+	integralist = 0
+	radical_centrism = 10
+	anarcho_primitivism = 0
+	nazbol_monarchism = 20
+	right_libertarianism = 70
+	anarcho_capitalism = 0
+	posadism = 0
 }
 
 add_ideas = {
@@ -287,7 +292,7 @@ set_autonomy = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = right_libertarianism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes

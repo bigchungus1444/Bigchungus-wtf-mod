@@ -170,16 +170,20 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = right_libertarianism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
+	integralist = 0
+	radical_centrism = 10
+	anarcho_primitivism = 0
+	nazbol_monarchism = 20
+	right_libertarianism = 70
+	anarcho_capitalism = 0
+	posadism = 0
 }
 
 create_country_leader = {
