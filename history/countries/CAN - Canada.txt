@@ -186,7 +186,7 @@ set_popularities = {
 	posadism = 0
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Mackenzie King"
 	desc = "POLITICS_MACKENZIE_KING_DESC"
 	picture = "Portrait_Canada_Mackenzie_King.dds"
@@ -197,7 +197,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Adrien Arcand"
 	desc = "POLITICS_ADRIEN_ARCAND_DESC"
 	picture = "GFX_CAN_adrien_arcand"
@@ -208,7 +208,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Tim Buck"
 	desc = "POLITICS_TIM_BUCK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
@@ -219,7 +219,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "J. S. Woodsworth"
 	desc = "POLITICS_JS_WOODSWORTH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
