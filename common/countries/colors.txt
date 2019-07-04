@@ -618,6 +618,9 @@ MOR = {
 	color_ui = rgb { 204 131 27  }	
 }	
 	
-	
+OTT = {
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171  190  152  }	
+}		
 	
 
