@@ -191,7 +191,7 @@ set_politics = {
 set_popularities = {
 	posadism = 70
 	nazbol_monarchism = 20
-	right_libertarianism = 10
+	libertarianism = 10
 }
 
 1939.1.1 = {
@@ -204,7 +204,7 @@ set_popularities = {
 	set_popularities = {
 		posadism = 70
 		nazbol_monarchism = 20
-		right_libertarianism = 10
+		libertarianism = 10
 	
 	}
 }
