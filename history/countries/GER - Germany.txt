@@ -282,15 +282,15 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = radical_centrism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	radical_centrism = 80
+	integralism = 10
+	nazbol_monarchism = 10
 }
 
 create_faction = Axis

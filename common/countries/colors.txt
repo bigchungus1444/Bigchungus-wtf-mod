@@ -609,8 +609,8 @@ TAI = {
 }	
 
 IBF = {
-	color = rgb { 255 173 51 }
-	color_ui = rgb { 255 173 51  }	
+	color = rgb { 255 160 18 }
+	color_ui = rgb { 255 160 18  }	
 }	
 
 MOR = {

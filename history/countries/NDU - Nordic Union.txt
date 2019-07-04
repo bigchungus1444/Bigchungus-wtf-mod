@@ -126,7 +126,7 @@ set_politics = {
 }
 set_popularities = {
 	right_libertarianism = 80
-	integralist = 10
+	integralism = 10
 	posadism = 10
 }
 

@@ -51,7 +51,7 @@ set_politics = {
 }
 set_popularities = {
 	right_libertarianism = 60
-	integralist = 20
+	integralism = 20
 	Nazbol_monarchism = 20
 }
 

@@ -177,7 +177,7 @@ set_politics = {
 }
 
 set_popularities = {
-	integralist = 0
+	integralism = 0
 	radical_centrism = 10
 	anarcho_primitivism = 0
 	nazbol_monarchism = 20

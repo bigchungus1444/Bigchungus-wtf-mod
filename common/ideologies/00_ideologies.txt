@@ -1,14 +1,14 @@
 ideologies = {
 	
-	integralist = {
+	integralism = {
 	
 		types = {
-			integralist_subtype = { 
+			integralism_subtype = { 
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_INTEGRALIST_1" 
+			"FACTION_NAME_integralism_1" 
 		}
 		
 		color = { 0 30 130 }
