@@ -551,3 +551,8 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
+
+MAD = {
+	color = rgb { 0 56 184 }
+	color_ui = rgb { 0 56 184 }
+}
