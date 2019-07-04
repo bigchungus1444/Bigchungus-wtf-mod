@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = NOR
+		owner = NDU
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -40,6 +40,8 @@ state={
 			122 3
 		}
 		add_core_of = NOR
+		add_core_of = NDU
+		
 	}
 
 	provinces={

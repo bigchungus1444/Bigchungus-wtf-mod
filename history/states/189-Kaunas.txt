@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = LIT
+		owner = BTU
 		victory_points = {
 			9483 5
 		}
@@ -25,6 +25,7 @@ state={
 			}
 		}
 		add_core_of = LIT
+		add_core_of = BTU
 	}
 
 	provinces={

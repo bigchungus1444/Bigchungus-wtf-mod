@@ -8,8 +8,9 @@ state=
 	
 	history=
 	{
-		owner = NOR
-		add_core_of = NOR
+		owner = NDU
+		add_core_of = SWE
+		add_core_of = NDU
 		buildings = {
 			infrastructure = 6
 			408 = {

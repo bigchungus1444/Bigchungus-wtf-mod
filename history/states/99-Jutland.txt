@@ -10,7 +10,7 @@ state= {
 
 	history=
 	{
-		owner = NOR
+		owner = NDU
 		victory_points = {
 			6364 3 
 		}
@@ -25,7 +25,8 @@ state= {
 				naval_base = 1
 			}
 		}
-		add_core_of = NOR
+		add_core_of = DEN
+		add_core_of = NDU
 	}
 	provinces=
 	{

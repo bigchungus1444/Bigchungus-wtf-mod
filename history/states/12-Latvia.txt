@@ -10,7 +10,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = LIT
+		owner = BTU
 		victory_points = {
 			9340 5 
 		}
@@ -30,7 +30,7 @@ state={
 			}
 		}
 		add_core_of = LAT
-		add_core_of = LIT
+		add_core_of = BTU
 	}
 
 	provinces={

@@ -556,3 +556,68 @@ MAD = {
 	color = rgb { 0 56 184 }
 	color_ui = rgb { 0 56 184 }
 }
+
+SIE = {
+	color = rgb { 35 110 230 }
+	color_ui = rgb { 35 110 230 }
+}
+
+MOR = {
+	color = rgb { 230 149 37}
+	color_ui = rgb { 230 149 37 }
+}
+
+ALG = {
+	color = rgb { 8 130 16 }
+	color_ui = rgb { 8 130 16 }
+}
+
+NGA = {
+	color = rgb { 0 135 81}
+	color_ui = rgb { 0 135 81 }
+}
+
+CMR = {
+	color = rgb { 206 17 38 }
+	color_ui = rgb { 206 17 38  }
+}
+
+TUN = {
+	color = rgb { 231 0 19 }
+	color_ui = rgb { 231 0 19  }
+}
+
+LBA = {
+	color = rgb { 35 158 70 }
+	color_ui = rgb { 35 158 70  }
+}
+CRB = {
+	color = rgb { 222 41 16 }
+	color_ui = rgb { 222 41 16  }
+}
+NDU = {
+	color = rgb { 0 106 167 }
+	color_ui = rgb { 0 106 167  }
+}	
+BTU = {
+	color = rgb { 18 63 131 }
+	color_ui = rgb { 18 63 131  }
+}
+TAI = {
+	color = rgb { 241 194 47 }
+	color_ui = rgb { 241 194 47  }	
+}	
+
+IBF = {
+	color = rgb { 255 173 51 }
+	color_ui = rgb { 255 173 51  }	
+}	
+
+MOR = {
+	color = rgb { 204 131 27 }
+	color_ui = rgb { 204 131 27  }	
+}	
+	
+	
+	
+

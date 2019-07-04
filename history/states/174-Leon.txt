@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = SPR
+		owner = IBF
 		victory_points = {
 			11707 1 
 		}
@@ -20,6 +20,7 @@ state={
 			}
 		}
 		add_core_of = SPR
+		add_core_of = IBF
 	}
 
 	provinces={

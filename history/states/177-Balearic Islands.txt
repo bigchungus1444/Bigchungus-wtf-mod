@@ -11,7 +11,7 @@ state=
 		victory_points = {
 			9793 1
 		}
-		owner = SPR
+		owner = IBF
 		buildings = {
 			infrastructure = 6
 			air_base = 1
@@ -23,6 +23,7 @@ state=
 			}
 		}
 		add_core_of = SPR
+		add_core_of = IBF
 	}
 	provinces=
 	{
