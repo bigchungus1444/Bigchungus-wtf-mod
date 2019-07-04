@@ -240,7 +240,7 @@ set_convoys = 400
 
 
 set_politics = {
-	ruling_party = right_libertarianism
+	ruling_party = libertarianism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -250,7 +250,7 @@ set_popularities = {
 	radical_centrism = 10
 	anarcho_primitivism = 0
 	nazbol_monarchism = 20
-	right_libertarianism = 70
+	libertarianism = 70
 	anarcho_capitalism = 0
 	posadism = 0
 }
@@ -272,7 +272,7 @@ set_autonomy = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = right_libertarianism
+		ruling_party = libertarianism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes

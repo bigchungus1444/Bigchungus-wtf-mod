@@ -140,13 +140,13 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = right_libertarianism
+	ruling_party = libertarianism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	right_libertarianism = 60
+	libertarianism = 60
 	integralism = 20
 	nazbol_monarchism = 20
 	

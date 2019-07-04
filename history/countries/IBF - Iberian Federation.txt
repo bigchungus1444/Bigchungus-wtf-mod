@@ -67,7 +67,7 @@ set_politics = {
 set_popularities = {
 	nazbol_monarchism = 50
 	posadism = 25
-	right_libertarianism = 25
+	libertarianism = 25
 }
 
 set_convoys = 150

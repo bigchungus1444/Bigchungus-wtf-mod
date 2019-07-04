@@ -4,7 +4,7 @@ oob = "PEF_1936"
 
 set_popularities = {
 	nazbol_monarchism = 80
-	right_libertarianism = 10
+	libertarianism = 10
 	integralism = 10
 }
 set_politics = {

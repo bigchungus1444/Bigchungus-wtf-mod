@@ -7,7 +7,7 @@ set_popularities = {
 	radical_centrism = 00
 	anarcho_primitivism = 00
 	nazbol_monarchism = 70
-	right_libertarianism = 10
+	libertarianism = 10
 	anarcho_capitalism = 00
 }
 set_politics = {

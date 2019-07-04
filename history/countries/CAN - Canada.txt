@@ -170,7 +170,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = right_libertarianism
+	ruling_party = libertarianism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
@@ -181,7 +181,7 @@ set_popularities = {
 	radical_centrism = 10
 	anarcho_primitivism = 0
 	nazbol_monarchism = 20
-	right_libertarianism = 70
+	libertarianism = 70
 	anarcho_capitalism = 0
 	posadism = 0
 }

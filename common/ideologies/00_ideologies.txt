@@ -225,15 +225,15 @@ ideologies = {
 		ai_fascism = yes
 	}
 	
-	right_libertarianism = {
+	libertarianism = {
 	
 		types = {
-			right_libertarianism_subtype = { 
+			libertarianism_subtype = { 
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_RIGHT_LIBERTARIANISM_1"
+			"FACTION_NAME_libertarianism_1"
 		}
 		
 		color = { 255 170 20 }
