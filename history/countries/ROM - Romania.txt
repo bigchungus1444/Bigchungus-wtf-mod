@@ -49,16 +49,13 @@ if = {
 }
 
 #Ideas
-#if = {
+if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
 	}
 	add_ideas = {
 		ROM_king_carol_ii_hedonist
 	}
-	give_guarantee = CZE
-	give_guarantee = GRE
-	give_guarantee = TUR
 }
 add_ideas = neutrality_idea
 
