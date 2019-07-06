@@ -1,0 +1,81 @@
+focus_tree = {
+	id = mexico_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			original_tag = MEX
+			
+			}
+	}
+	
+		default = no
+
+	continuous_focus_position = { x = 70 y = 1100 }
+	
+		focus = {
+		id = MEX_focus_Mr_Trotsky's_Wild_Ride
+		icon = 
+		x = -5
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+	
+			completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+		focus = {
+		id = MEX_focus_Smash_The_False_Trotskyites
+		prerequisite = { focus = MEX_focus_Mr_Trotsky's_Wild_Ride }
+		icon = 
+		x = -5
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+	
+			completion_reward = {
+			create_wargoal = {
+    type = puppet_wargoal_focus
+    target = CRB
+			}
+		}
+	}
+	
+	
+	
+	}
