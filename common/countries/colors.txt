@@ -598,8 +598,8 @@ OTT = {
 
 
 TAI = {
-	color = rgb { 241 194 47 }
-	color_ui = rgb { 241 194 47  }	
+	color = rgb { 255 166 0  }
+	color_ui = rgb { 255 166 0   }	
 }		
 
 CHI = {

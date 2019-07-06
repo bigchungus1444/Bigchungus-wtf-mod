@@ -57,12 +57,13 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = posadism
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+	posadism = 80
+	nazbol_monarchism = 10
+	libertarianism = 10
 }
