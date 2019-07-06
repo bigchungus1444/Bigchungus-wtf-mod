@@ -57,17 +57,16 @@ set_technology = {
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	fascism = 15
-	communism = 10
-	neutrality = 75
+	set_politics = {
+		ruling_party = libertarianism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		libertarianism = 60
+		integralism = 20
+		anarcho_capitalism = 20
 }
 
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
@@ -84,15 +83,15 @@ create_country_leader = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = libertarianism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 20
-		communism = 10
-		neutrality = 70
+		libertarianism = 60
+		integralism = 20
+		anarcho_capitalism = 20
 	}
 }
 

@@ -637,3 +637,22 @@ MEN = {
 	color_ui = rgb { 241 194 47 }	
 }		
 
+SRI = {
+	color = rgb { 235 116 0 }
+	color_ui = rgb { 235 116 0 }	
+}		
+
+TIB = {
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }	
+}		
+
+BAN = {
+	color = rgb { 0 106 78 }
+	color_ui = rgb { 0 106 78 }	
+}		
+
+BRM = {
+	color = rgb { 52 178 51 }
+	color_ui = rgb { 52 178 51 }	
+}		
