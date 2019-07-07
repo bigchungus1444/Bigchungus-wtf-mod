@@ -130,14 +130,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = nazbol_monarchism
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	neutrality = 90
+	nazbol_monarchism = 60
+	libertarianism = 40
 }
 
 set_convoys = 20
