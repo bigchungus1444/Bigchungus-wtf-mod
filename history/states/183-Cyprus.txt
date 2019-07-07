@@ -10,9 +10,9 @@ state= {
 
 	history=
 	{
-		owner = TUR
+		owner = MLT
 		add_core_of = CYP
-		add_core_of = TUR
+		add_core_of = MLT
 		victory_points = {
 			11984 5
 		}

@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = POR
+		owner = IBF
 		victory_points = {
 			11805 20
 		}
@@ -27,6 +27,7 @@ state={
 			}
 		}
 		add_core_of = POR
+		add_core_of = IBF
 	}
 
 	provinces={

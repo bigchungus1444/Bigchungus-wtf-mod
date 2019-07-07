@@ -1,17 +1,17 @@
 ideologies = {
 	
-	integralist = {
+	integralism = {
 	
 		types = {
-			integralist_subtype = { 
+			integralism_subtype = { 
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_INTEGRALIST_1" 
+			"FACTION_NAME_integralism_1" 
 		}
 		
-		color = { 255 170 0 }
+		color = { 0 30 130 }
 		
 		rules = { 
 			can_force_government = yes
@@ -56,7 +56,7 @@ ideologies = {
 			"FACTION_NAME_radical_centrism_1"
 		}
 		
-		color = { 0 0 245 }
+		color = { 0 150 255) }
 		
 		rules = { 
 			can_force_government = no
@@ -101,7 +101,7 @@ ideologies = {
 			"FACTION_NAME_posadism_1"
 		}
 		
-		color = { 255 0 0 }
+		color = { 205 20 20 }
 		
 		rules = { 
 			can_force_government = yes
@@ -146,7 +146,7 @@ ideologies = {
 			"FACTION_NAME_ANARCHO_PRIMITIVISM_1"
 		}
 		
-		color = { 224 221 26 }
+		color = { 15 160 30 }
 		
 		rules = { 
 			can_force_government = no
@@ -191,7 +191,7 @@ ideologies = {
 			"FACTION_NAME_NAZBOL_MONARCHISM_1"
 		}
 		
-		color = { 0 0 0 }
+		color = { 120 0 0 }
 		
 		rules = { 
 			can_force_government = yes
@@ -225,18 +225,18 @@ ideologies = {
 		ai_fascism = yes
 	}
 	
-	right_libertarianism = {
+	libertarianism = {
 	
 		types = {
-			right_libertarianism_subtype = { 
+			libertarianism_subtype = { 
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_RIGHT_LIBERTARIANISM_1"
+			"FACTION_NAME_libertarianism_1"
 		}
 		
-		color = { 9 205 226 }
+		color = { 255 170 20 }
 		
 		rules = { 
 			can_force_government = no
@@ -281,7 +281,7 @@ ideologies = {
 			"FACTION_NAME_ANARCHO_CAPITALISM_1"
 		}
 		
-		color = { 9 219 0 }
+		color = { 255 225 0 }
 		
 		rules = { 
 			can_force_government = no

@@ -6,8 +6,6 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -87,17 +85,8 @@ if = {
 }
 
 # DIPLOMACY / WAR 36
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
 
-	declare_war_on = {
-		target = ETH
-		type = annex_everything
-	}
-	give_guarantee = ALB
-}
+
 
 1939.1.1 = {
 
@@ -215,15 +204,15 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = integralism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 22
-	fascism = 76
-	communism = 2
+	integralism = 70
+	libertarianism = 20
+	nazbol_monarchism = 10
 }
 
 create_country_leader = {

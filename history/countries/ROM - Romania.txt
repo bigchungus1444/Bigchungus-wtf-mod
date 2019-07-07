@@ -56,9 +56,6 @@ if = {
 	add_ideas = {
 		ROM_king_carol_ii_hedonist
 	}
-	give_guarantee = CZE
-	give_guarantee = GRE
-	give_guarantee = TUR
 }
 add_ideas = neutrality_idea
 
@@ -212,16 +209,15 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = radical_centrism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 18
-	communism = 2
-	neutrality = 60
+	radical_centrism = 60
+	integralism = 20
+	nazbol_monarchism = 20
 }
 
 1939.1.1 = {

@@ -148,13 +148,13 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = anarcho_primitivism
 	last_election = "1935.11.27"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
+	anarcho_primitivism = 100
 }
 
 create_country_leader = {

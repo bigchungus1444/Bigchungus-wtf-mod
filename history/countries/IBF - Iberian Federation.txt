@@ -59,15 +59,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = nazbol_monarchism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 47
-	fascism = 46
-	communism = 7
+	nazbol_monarchism = 50
+	posadism = 25
+	libertarianism = 25
 }
 
 set_convoys = 150

@@ -130,16 +130,13 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 120
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = posadism
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 12
-	neutrality = 78
+	posadism = 100
 }
 
 create_country_leader = {

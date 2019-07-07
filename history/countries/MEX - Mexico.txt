@@ -192,11 +192,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	integralist = 10
+	integralism = 10
 	radical_centrism = 0
 	anarcho_primitivism = 0
 	nazbol_monarchism = 80
-	right_libertarianism = 10
+	libertarianism = 10
 	anarcho_capitalism = 0
 	posadism = 0
 }

@@ -60,7 +60,10 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 20	fascism = 30	communism = 50
+set_politics = {
+	ruling_party = anarcho_capitalism
+
+set_popularities = {	anarcho_capitalism = 70	integralism = 15	nazbol_monarchism = 15
 }
 
 create_country_leader = {

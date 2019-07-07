@@ -3,13 +3,12 @@
 oob = "PEF_1936"
 
 set_popularities = {
-	democratic = 100
-	fascism = 0
-	communism = 0
-	neutrality = 0
+	nazbol_monarchism = 80
+	libertarianism = 10
+	integralism = 10
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = nazbol_monarchism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

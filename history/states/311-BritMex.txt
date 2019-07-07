@@ -8,8 +8,9 @@ state=
 	history=
 	{
 		
-		owner = GUA
-		add_core_of = GUA
+		owner = CRB
+		add_core_of = CRB
+		add_core_of = BLZ
 		victory_points = {
 			2077 1 
 		}
