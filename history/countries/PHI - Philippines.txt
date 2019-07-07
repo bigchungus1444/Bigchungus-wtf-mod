@@ -67,15 +67,13 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = anarcho_primitivism
 	last_election = "1935.9.15"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 82
-	fascism = 9
-	communism = 9
+	anarcho_primitivism = 100
 }
 
 create_country_leader = {

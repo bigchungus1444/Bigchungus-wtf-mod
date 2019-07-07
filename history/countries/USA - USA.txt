@@ -247,9 +247,9 @@ set_politics = {
 }
 set_popularities = {	
 	integralism = 0
-	radical_centrism = 10
+	radical_centrism = 30
 	anarcho_primitivism = 0
-	nazbol_monarchism = 20
+	nazbol_monarchism = 0
 	libertarianism = 70
 	anarcho_capitalism = 0
 	posadism = 0
@@ -264,10 +264,7 @@ add_ideas = {
 }
 
 
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
+
 }
 
 1939.1.1 = {

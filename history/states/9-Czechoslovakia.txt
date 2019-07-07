@@ -9,7 +9,7 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = CZE
+		owner = ZPZ
 		victory_points = { 11542 30 }
 		victory_points = { 6418 5 }
 		victory_points = { 9569 5 }
@@ -22,6 +22,7 @@ state={
 			air_base = 5
 		}
 		add_core_of = CZE
+		add_core_of = ZPZ
 
 		1939.3.14 = {
 			owner = GER

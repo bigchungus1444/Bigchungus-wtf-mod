@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = ASH
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -33,6 +33,7 @@ state={
 		#	11612 3
 		#}
 		add_core_of = AUS
+		add_core_of = ASH
 
 		1938.3.12 = {
 			owner = GER
