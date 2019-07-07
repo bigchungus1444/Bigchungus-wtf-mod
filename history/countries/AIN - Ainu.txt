@@ -60,9 +60,14 @@ if = {
 	}
 }
 
-set_popularities = {	fascism = 34
-	democratic = 30
-	communism = 36
+set_politics = {
+	ruling_party = anarcho_primitivism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	anarcho_primitivism = 100
 }
 
 
