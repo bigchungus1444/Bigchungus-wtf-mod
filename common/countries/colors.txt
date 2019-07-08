@@ -676,3 +676,33 @@ EUR = {
 	color = rgb {  150 0 0 }
 	color_ui = rgb {  150 0 0 }	
 }	
+
+MAC = {
+	color = rgb {  255 230 0 }
+	color_ui = rgb {  255 230 0 }	
+}	
+
+FJC = {
+	color = rgb { 241 194 47 }
+	color_ui = rgb { 241 194 47 }	
+}		
+
+SHC = {
+	color = rgb { 241 194 47 }
+	color_ui = rgb { 241 194 47 }	
+}		
+
+XIC = {
+	color = rgb { 241 194 47 }
+	color_ui = rgb { 241 194 47 }	
+}		
+
+SCC = {
+	color = rgb { 241 194 47 }
+	color_ui = rgb { 241 194 47 }	
+}		
+
+HNC = {
+	color = rgb { 241 194 47 }
+	color_ui = rgb { 241 194 47 }	
+}		
