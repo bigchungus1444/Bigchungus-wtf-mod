@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = MLT
-		add_core_of = MLT
+		owner = CSC
+		add_core_of = CSC
 		victory_points = {
 			10007 1 
 		}
