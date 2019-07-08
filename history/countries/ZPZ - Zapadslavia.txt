@@ -59,9 +59,15 @@ if = {
 	}
 }
 
-set_popularities = {	fascism = 34
-	democratic = 30
-	communism = 36
+set_politics = {
+	ruling_party = libertarianism
+	last_election = "1934.3.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	libertarianism = 80
+	radical_centrism = 20
 }
 
 

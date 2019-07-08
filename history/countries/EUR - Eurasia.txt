@@ -59,9 +59,16 @@ if = {
 	}
 }
 
-set_popularities = {	fascism = 34
-	democratic = 30
-	communism = 36
+set_politics = {
+	ruling_party = nazbol_monarchism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	integralism = 10
+	libertarianism = 20
+	nazbol_monarchism = 70
 }
 
 

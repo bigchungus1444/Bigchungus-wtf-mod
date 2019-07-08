@@ -655,4 +655,24 @@ BAN = {
 BRM = {
 	color = rgb { 52 178 51 }
 	color_ui = rgb { 52 178 51 }	
-}		
+}				
+
+AIN = {
+	color = rgb { 70 70 70 }
+	color_ui = rgb { 70 70 70 }	
+}	
+
+ZPZ = {
+	color = rgb { 38 82 181 }
+	color_ui = rgb { 38 82 181 }	
+}	
+
+ASH = {
+	color = rgb { 225 225 225  }
+	color_ui = rgb { 225 225 225  }	
+}	
+
+EUR = {
+	color = rgb {  150 0 0 }
+	color_ui = rgb {  150 0 0 }	
+}	
