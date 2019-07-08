@@ -12,7 +12,8 @@ state=
 
 	history=
 	{
-		owner = BEL
+		owner = UNT
+		add_core_of = LUX
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
