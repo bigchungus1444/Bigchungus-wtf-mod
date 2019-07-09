@@ -59,15 +59,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = posadism
 	last_election = "1933.4.26"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 93
-	fascism = 4
-	communism = 3
+	posadism = 70
+	libertarianism = 20
+	nazbol_monarchism = 10
 }
 
 set_convoys = 150
