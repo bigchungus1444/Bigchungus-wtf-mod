@@ -6,7 +6,8 @@ state={
 	
 	state_category = town
 	history={
-		owner = SOV
+		owner = EUR
+		add_core_of = EUR
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

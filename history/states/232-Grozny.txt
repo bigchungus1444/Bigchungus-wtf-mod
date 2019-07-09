@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = EUR
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 4
 		}

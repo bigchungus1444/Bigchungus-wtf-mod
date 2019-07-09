@@ -293,8 +293,8 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 204 102 0 }
-	color_ui = rgb { 255 128 0 }
+	color = rgb { 255 153 51 }
+	color_ui = rgb { 255 153 51 }
 }
 CRO = {
 	color = rgb { 230  70  180 }
@@ -593,10 +593,6 @@ OTT = {
 	color_ui = rgb { 171  190  152  }	
 }		
 
-
-
-
-
 TAI = {
 	color = rgb { 255 166 0  }
 	color_ui = rgb { 255 166 0   }	
@@ -638,8 +634,8 @@ MEN = {
 }		
 
 SRI = {
-	color = rgb { 235 116 0 }
-	color_ui = rgb { 235 116 0 }	
+	color = rgb { 255 190 55 }
+	color_ui = rgb { 255 190 55 }	
 }		
 
 TIB = {
@@ -705,4 +701,29 @@ SCC = {
 HNC = {
 	color = rgb { 241 194 47 }
 	color_ui = rgb { 241 194 47 }	
+}		
+
+SRA = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 170  10  10 }	
+}		
+
+WAL = {
+	color = rgb { 30 144 255 }
+	color_ui = rgb { 30 144 255 }	
+}		
+
+BEN = {
+	color = rgb { 19 136 8 }
+	color_ui = rgb { 19 136 8 }	
+}		
+
+CSC = {
+	color = rgb { 225 225 225 }
+	color_ui = rgb { 225 225 225 }	
+}		
+
+KAZ = {
+	color = rgb { 30 181 58 }
+	color_ui = rgb { 30 181 58 }	
 }		
