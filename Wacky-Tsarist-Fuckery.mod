@@ -3,6 +3,7 @@ path="mod/wacky-tsarist-fuckery/"
 replace_path="common/countries"
 replace_path="common/decisions"
 replace_path="common/national_focus"
+replace_path="events"
 tags={
 	"Alternative History"
 	"Translation"

@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = NOR
+		owner = NDU
 		buildings = {
 			infrastructure = 4
 			13003 = {
@@ -17,6 +17,7 @@ state=
 		}
 		add_core_of = DEN
 		add_core_of = NOR
+		add_core_of = NDU
 	}
 	provinces= { 13003 }
 }
