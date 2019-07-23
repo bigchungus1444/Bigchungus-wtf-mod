@@ -204,16 +204,16 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = radical_centrism
+	ruling_party = integralism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	radical_centrism = 60
-	integralism = 20
-	libertarianism = 10
-	nazbol_monarchism = 10
+	radical_centrism = 10
+	integralism = 60
+	libertarianism = 15
+	nazbol_monarchism = 15
 }
 
 create_country_leader = {
