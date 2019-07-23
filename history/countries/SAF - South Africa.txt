@@ -139,9 +139,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 20
-	communism = 5
+	radical_militarism = 75
+	posadism = 20
+	libertarianism = 5
 }
 
 create_country_leader = {

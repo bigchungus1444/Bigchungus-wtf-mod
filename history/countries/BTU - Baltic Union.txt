@@ -99,14 +99,14 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = libertarianism
+	ruling_party = radical_militarism
 	last_election = "1931.10.3"
 	election_frequency = 108
 	elections_allowed = no
 }
 set_popularities = {
-	libertarianism = 60
-	integralism = 20
+	radical_militarism = 60
+	libertarianism = 20
 	nazbol_monarchism = 20
 	
 }
