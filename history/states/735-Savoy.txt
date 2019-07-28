@@ -5,7 +5,8 @@ state={
 	state_category = town
 
 	history={
-		owner = PEF
+		owner = ITA
+		add_core_of = ITA
 		add_core_of = FRA
 		add_core_of = PEF
 		victory_points = {
