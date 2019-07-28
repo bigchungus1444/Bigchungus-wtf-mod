@@ -293,10 +293,6 @@ set_popularities = {
 	nazbol_monarchism = 10
 }
 
-create_faction = Liberty Coalition
-add_to_faction = GER
-add_to_faction = BTU
-add_to_faction = NDU
 
 
 add_ideas = {

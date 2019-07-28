@@ -5,14 +5,18 @@
  GER_libertarianism_DEF:0 "the Republic of Germany"
  GER_radical_centrism:0 "Republic of Germany"
  GER_radical_centrism_DEF:0 "the Republic of Germany"
- GER_anarcho_capitalism:1 "Free Territory Germany"
- GER_anarcho_capitalism_DEF:1 "the Free Territory Germany"
+ GER_anarcho_capitalism:1 "Free Territory of Germany"
+ GER_anarcho_capitalism_DEF:1 "the Free Territory of Germany"
  GER_nazbol_monarchism:0 "People's Empire of Germany"
  GER_nazbol_monarchism_DEF:0 "the People's Empire of Germany"
  GER_posadism:0 "Socialist State of Germany"
  GER_posadism_DEF:0 "the Socialist State of Germany"
- GER_anarcho_primitivism:0 "Territory  Germany"
- GER_anarcho_primitivism_DEF:0 "Territory Germany"
+ GER_anarcho_primitivism:0 "German Territory"
+ GER_anarcho_primitivism_DEF:0 "the German Territory"
+ GER_radical_militarism:0 "State of Germany"
+ GER_radical_militarism_DEF:0 "the State of Germany"
+ GER_ultranationalism:0 "State of Germany"
+ GER_ultranationalism_DEF:0 "The State of Germany"
  GER_nazbol_monarchism_ADJ:0 "German" 
  GER_integralism_ADJ:0 "German"
  GER_libertarianism_ADJ:0 "German"
@@ -20,6 +24,8 @@
  GER_posadism_ADJ:0 "German"
  GER_anarcho_primitivism_ADJ:0 "German"
  GER_anarcho_capitalism_ADJ:0 "German"
+ GER_radical_militarism_ADJ:0 "German"
+ GER_ultranationalism_ADJ:0 "German"
 
  ENG_integralism:0 "Imperial British Japan"
  ENG_integralism_DEF:0 "Imperial British Japan"
@@ -35,6 +41,10 @@
  ENG_posadism_DEF:0 "the Socialist State of British Japan"
  ENG_anarcho_primitivism:0 "Territory of British Japan"
  ENG_anarcho_primitivism_DEF:0 "Territory of British Japan"
+ ENG_radical_militarism:0 "State of British Japan"
+ ENG_radical_militarism_DEF:0 "the State of British Japan"
+ ENG_ultranationalism_:0 "State of British Japan"
+ ENG_ultranationalism_DEF:0 "the State of British Japan"
  ENG_nazbol_monarchism_ADJ:0 "Britto-Japanese" 
  ENG_integralism_ADJ:0 "Britto-Japanese"
  ENG_libertarianism_ADJ:0 "Britto-Japanese"
@@ -42,28 +52,9 @@
  ENG_posadism_ADJ:0 "Britto-Japanese"
  ENG_anarcho_primitivism_ADJ:0 "Britto-Japanese"
  ENG_anarcho_capitalism_ADJ:0 "Britto-Japanese"
+ ENG_radical_militarism_ADJ:0 "Britto-Japanese"
+ ENG_ultranationalism_ADJ:0 "Britto-Japanese"
  
- #should be changed to RUS, eurasia is a different tag#
- RUS_integralism:0 "Russian Empire"
- RUS_integralism_DEF:0 "the Russian Empire"
- RUS_libertarianism:0 "Russian Federation"
- RUS_libertarianism_DEF:0 "the Russian Federation"
- RUS_anarcho_capitalism:0 "Russian Free Territory"
- RUS_anarcho_capitalism_DEF:0 "The Free Territory of Russia"
- RUS_nazbol_monarchism:0 "People's Empire of Eurasia"
- RUS_nazbol_monarchism_DEF:0 "The People's Empire of Eurasia"
- RUS_nazbol_monarchism_ADJ:0 "Russian" 
- RUS_integralism_ADJ:0 "Russian"
- RUS_libertarianism_ADJ:0 "Russian"
- RUS_radical_centrism_ADJ:0 "Russian"
- RUS_posadism_ADJ:0 "Russian"
- RUS_anarcho_primitivism_ADJ:0 "Russian"
- RUS_anarcho_capitalism_ADJ:0 "Russian"
-
-
-
-
-
  USA_integralism:0 "Empire of America"
  USA_integralism_DEF:0 "the Empire of America"
  USA_libertarianism:0 "United States"
@@ -2250,6 +2241,7 @@
  PUE_libertarianism_ADJ:0 "Puerto Rican"
  PUE_anarcho_capitalism_ADJ:1 "Porto Rican"
  PUE_nazbol_monarchism_ADJ:1 "Taino"
+ 
  QAT_integralism:1 "Unitary State of Qatar"
  QAT_integralism_DEF:1 "the Unitary State of Qatar"
  QAT_libertarianism:1 "Republic of Qatar"
@@ -2262,6 +2254,7 @@
  QAT_libertarianism_ADJ:0 "Qatari"
  QAT_anarcho_capitalism_ADJ:0 "Qatari"
  QAT_nazbol_monarchism_ADJ:0 "Qatari"
+ 
  SCO_integralism:1 "Caledonia"
  SCO_integralism_DEF:1 "Caledonia"
  SCO_libertarianism:0 "Republic of Scotland"
@@ -2274,6 +2267,7 @@
  SCO_libertarianism_ADJ:0 "Scottish"
  SCO_anarcho_capitalism_ADJ:0 "Scottish"
  SCO_nazbol_monarchism_ADJ:1 "Alban"
+ 
  SRL_integralism:1 "Nationalist Ceylon"
  SRL_integralism_DEF:1 "Nationalist Ceylon"
  SRL_libertarianism:1 "libertarianism Socialist Republic of Sri Lanka"
@@ -2286,6 +2280,7 @@
  SRL_libertarianism_ADJ:0 "Sri Lankan"
  SRL_anarcho_capitalism_ADJ:0 "Sri Lankan"
  SRL_nazbol_monarchism_ADJ:1 "Tamil-Sinhalese"
+ 
  SUR_integralism:1 "Surinam Unitary State"
  SUR_integralism_DEF:1 "the Surinam Unitary State"
  SUR_libertarianism:1 "Republic of Suriname"
@@ -2298,6 +2293,7 @@
  SUR_libertarianism_ADJ:0 "Surinamese"
  SUR_anarcho_capitalism_ADJ:0 "Surinamese"
  SUR_nazbol_monarchism_ADJ:1 "Surinen"
+ 
  TAJ_integralism:1 "Bekstvo of Matcha"
  TAJ_integralism_DEF:1 "the Bekstvo of Matcha"
  TAJ_libertarianism:1 "Republic of Tajikistan"
@@ -2310,6 +2306,7 @@
  TAJ_libertarianism_ADJ:0 "Tajik"
  TAJ_anarcho_capitalism_ADJ:0 "Tajik"
  TAJ_nazbol_monarchism_ADJ:0 "Tajik"
+ 
  TRI_integralism:1 "Empire of Cairi"
  TRI_integralism_DEF:1 "the Empire of Cairi"
  TRI_libertarianism:1 "Republic of Trinidad and Tobago"
@@ -2322,6 +2319,7 @@
  TRI_libertarianism_ADJ:0 "Trinidadian and Tobagonian"
  TRI_anarcho_capitalism_ADJ:0 "Trinidadian and Tobagonian"
  TRI_nazbol_monarchism_ADJ:1 "Amerindian"
+ 
  TMS_integralism:1 "Khanate of Khiva"
  TMS_integralism_DEF:1 "the Khanate of Khiva"
  TMS_libertarianism:1 "Republic of Turkmenistan"
@@ -2334,6 +2332,7 @@
  TMS_libertarianism_ADJ:0 "Turkmen"
  TMS_anarcho_capitalism_ADJ:0 "Turkmen"
  TMS_nazbol_monarchism_ADJ:1 "Turkestan"
+ 
  UAE_integralism:1 "Arab Emirate"
  UAE_integralism_DEF:1 "the Arab Emirate"
  UAE_libertarianism:1 "Trucial States"
@@ -2345,6 +2344,7 @@
  UAE_integralism_ADJ:0 "Emirati"
  UAE_libertarianism_ADJ:1 "Trucial"
  UAE_anarcho_capitalism_ADJ:0 "Emirati"
+ 
  UAE_nazbol_monarchism_ADJ:1 "Arab"
  UZB_integralism:1 "Emirate of Bukhara"
  UZB_integralism_DEF:1 "the Emirate of Bukhara"
@@ -2358,6 +2358,7 @@
  UZB_libertarianism_ADJ:0 "Uzbek"
  UZB_anarcho_capitalism_ADJ:0 "Uzbek"
  UZB_nazbol_monarchism_ADJ:0 "Uzbek"
+ 
  KUW_integralism:1 "Dictatorial Kuwait"
  KUW_integralism_DEF:1 "Dictatorial Kuwait"
  KUW_libertarianism:0 "Kuwait"
@@ -2370,6 +2371,7 @@
  KUW_libertarianism_ADJ:0 "Kuwaiti"
  KUW_anarcho_capitalism_ADJ:0 "Kuwaiti"
  KUW_nazbol_monarchism_ADJ:0 "Kuwaiti"
+ 
  CSA_integralism:0 "Confederated States of America"
  CSA_integralism_DEF:0 "the Confederated States of America"
  CSA_libertarianism:0 "Confederacy of American States"
@@ -2382,6 +2384,7 @@
  CSA_nazbol_monarchism_ADJ:0 "Confederate"
  CSA_libertarianism_ADJ:0 "Confederate"
  CSA_anarcho_capitalism_ADJ:0 "Confederate"
+ 
  USB_integralism:0 "Unaligned States of America"
  USB_integralism_DEF:0 "the Unaligned States of America"
  USB_libertarianism:0 "Unaligned States of America"
@@ -2394,6 +2397,7 @@
  USB_nazbol_monarchism_ADJ:0 "American"
  USB_libertarianism_ADJ:0 "American"
  USB_anarcho_capitalism_ADJ:0 "American"
+ 
  CYP_integralism:1 "Cypriot Empire"
  CYP_integralism_DEF:1 "the Cypriot Empire"
  CYP_libertarianism:1 "Republic of Cyprus"
@@ -2406,6 +2410,7 @@
  CYP_libertarianism_ADJ:0 "Cypriot"
  CYP_anarcho_capitalism_ADJ:0 "Cypriot"
  CYP_nazbol_monarchism_ADJ:0 "Cypriot"
+ 
  MLT_integralism:2 "Tenth Crusade"
  MLT_integralism_DEF:2 "the Tenth Crusade"
  MLT_libertarianism:0 "Malta"
