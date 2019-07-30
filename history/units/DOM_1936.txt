@@ -10,19 +10,6 @@
 	}
 }
 
-units = {
-	##### Ejército de República Dominicana #####
-	division= {	
-		name = "Ejército Dominicana"
-		location = 7660 # Santo Domingo
-		division_template = "División de Infanteria"		
-		start_equipment_factor = 0.3
-
-	}
-
-	##### No Notable Naval Forces #####
-}
-
 ##### No notable air force #####
 
 instant_effect = {

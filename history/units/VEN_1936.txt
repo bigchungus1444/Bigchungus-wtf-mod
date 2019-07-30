@@ -23,33 +23,6 @@ division_template = {
 	}
 }
 
-units = {
-	##### Alto Mando de Venezuela #####
-	division= {	# "1a División 'Eduardo Blanco'"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8113 # Caracas
-		division_template = "División de Infanteria"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-	division= {	
-		name = "Los Caballos de Venezuela"
-		location = 8113 # Caracas
-		division_template = "División de Caballería"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-
-	}
-
-	##### No notable navy #####
-}
-
-##### No notable air forces #####
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

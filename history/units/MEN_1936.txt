@@ -22,40 +22,6 @@ division_template = {
 	}
 }
 
-units = {
-	division = { # "1 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 828
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-	}
-	division = { # "1 Qibing Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1590
-		division_template = "Qibing Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-	}
-	division = { # "2 Qibing Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 828
-		division_template = "Qibing Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-	}
-}
-
-
 ########## STARTING PRODUCTION ##########
 instant_effect = {
 	add_equipment_production = {
