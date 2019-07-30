@@ -16,19 +16,6 @@
 	}
 }
 
-
-units = {
-	### Army High Command ###
-	division = {
-		name = "Army High Command"
-		location = 11293
-		division_template = "Infantry Division"		# Represents Ireland's four regional commands 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-}
-
 ## STARTING PRODUCTION ##
 instant_effect = {
 	add_equipment_production = {

@@ -10,16 +10,6 @@
 }
 
 
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Tuvy #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 10627
-		division_template = "Strelkovaya Polk"		
-		start_equipment_factor = 0.7
-	}
-}
-
 ##### No air force #####
 instant_effect = {
 	add_equipment_production = {

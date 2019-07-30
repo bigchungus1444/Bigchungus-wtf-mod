@@ -27,48 +27,6 @@ division_template = {
 	}
 }
 
-
-units = {
-	##### Royal Iraqi Army #####
-	division = {
-		#name = "1 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 2097
-		division_template = "Alfurqat Almasha"	
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		#name = "2 Alfurqat"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 10106
-		division_template = "Alfurqat Aljabalia"	
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-}
-
-
-air_wings = {
-	### Royal Iraqi Air Force (RIrAF)
-	291 = {
-		# 1st Squadron -- Hawker Audax
-		CAS_equipment_1 =  {
-			owner = "IRQ" 
-			amount = 25
-		}
-	}
-}
-
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

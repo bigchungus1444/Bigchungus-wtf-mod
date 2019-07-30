@@ -15,36 +15,6 @@
 	}
 }
 
-units = {
-	##### Sahi Nepali Sena #####
-	division = {
-		#name = "1 Nepali Dibhijana"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4987
-		division_template = "Paidala Dibhijana"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		#name = "2 Nepali Dibhijana"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 4987
-		division_template = "Paidala Dibhijana"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
-
-	}
-}
-
-### No notable air forces ###
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
