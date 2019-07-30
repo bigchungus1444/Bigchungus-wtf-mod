@@ -61,9 +61,9 @@ if = {
 }
 
 set_politics = {
-	ruling_party = radical_militarism
+	ruling_party = ultranationalism
 
-set_popularities = {	radical_militarism = 70	libertarianism = 15	nazbol_monarchism = 15
+set_popularities = {	ultranationalism = 70	libertarianism = 15	nazbol_monarchism = 15
 }
 
 create_country_leader = {

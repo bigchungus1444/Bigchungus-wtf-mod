@@ -209,29 +209,29 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = radical_centrism
-	last_election = "1933.12.20"
-	election_frequency = 48
-	elections_allowed = yes
-}
+		ruling_party = radical_militarism
+		last_election = "1939.7.15"
+		election_frequency = 48
+		elections_allowed = no
+	}
 set_popularities = {
-	radical_centrism = 60
-	integralism = 20
-	nazbol_monarchism = 20
-}
+		libertarianism = 30
+		nazbol_monarchism = 30
+		radical_militarism = 40
+	}
+
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = radical_militarism
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 20
-		fascism = 35
-		communism = 2
-		neutrality = 43
+		libertarianism = 30
+		nazbol_monarchism = 30
+		radical_militarism = 40
 	}
 }
 

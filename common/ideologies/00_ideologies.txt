@@ -326,7 +326,7 @@ ideologies = {
 			"FACTION_NAME_RADICAL_MILITARISM_1"
 		}
 		
-		color = { 0 0 0 }
+		color = { 104 105 107 }
 		
 		rules = { 
 			can_force_government = no
@@ -371,7 +371,7 @@ ideologies = {
 			"FACTION_NAME_ULTRANATIONALISM_1"
 		}
 		
-		color = { 4 76 80 }
+		color = { 54 55 56 }
 		
 		rules = { 
 			can_force_government = no
