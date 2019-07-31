@@ -61,9 +61,16 @@ if = {
 	}
 }
 
-set_popularities = {	fascism = 34
-	democratic = 30
-	communism = 36
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+
+set_popularities = {	radical_militarism = 25
+	integralism = 25
+	ultranationalism = 50
+	}
 }
 
 create_country_leader = {
