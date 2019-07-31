@@ -101,8 +101,113 @@ if = {
 	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
 
+set_variable = { var = eng_gateway_to_europe_influence value = 0 }
+
+add_ideas = {
+	stiff_upper_lip
+	ENG_the_war_to_end_all_wars
+	george_v
+}
+	
+
 set_convoys = 800
 
+# DIPLOMACY
+#if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	#set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	#set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	#set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	#set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	#set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+	#	target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	#else = {
+		puppet = MAL
+		puppet = RAJ
+	}
+}
+
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = commonwealth_research
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#adding ministers
+	add_ideas = {
+		ENG_ernest_bevin
+		bernard_montgomery
+		rsaf_enfield
+		archibald_wavell
+		charles_portal
+		english_electric		
+
+		#laws
+		partial_economic_mobilisation
+		limited_conscription
+
+		ENG_george_vi
+	}
+
+	
+create_country_leader = {
+	name = "Neville Chamberlain"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		chamberlain_appeaser rearmer
+	}
+}
+	remove_ideas = george_v #Dead
+
+	complete_national_focus = limited_rearmament_focus
+	complete_national_focus = air_defense_focus
+	complete_national_focus = radar_focus
+	complete_national_focus = shadow_scheme_focus
+	complete_national_focus = uk_empire_focus
+	complete_national_focus = uk_service_focus
+	complete_national_focus = uk_colonial_focus
+	complete_national_focus = uk_mediterranean_focus
+	complete_national_focus = uk_asia_focus
+	complete_national_focus = uk_commonwealth_focus
+
+	give_guarantee = POL
+	
 	set_oob = "ENG_1939"
 	if = {
 		limit = {
@@ -217,12 +322,13 @@ set_convoys = 800
 }
 
 set_politics = {
-	ruling_party = integralism
+	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
-set_popularities = {	integralism = 50	nazbol_monarchism = 50
+set_popularities = {	democratic = 97	fascism = 2
+	communism = 1
 }
 
 
