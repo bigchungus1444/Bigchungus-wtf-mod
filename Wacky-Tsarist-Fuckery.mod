@@ -4,6 +4,7 @@ replace_path="common/countries"
 replace_path="common/decisions"
 replace_path="common/national_focus"
 replace_path="events"
+replace_path="history/countries"
 tags={
 	"Alternative History"
 	"Translation"
