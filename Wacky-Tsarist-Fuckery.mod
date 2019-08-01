@@ -6,6 +6,7 @@ replace_path="common/national_focus"
 replace_path="events"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
+replace_path="gfx/loadingscreens"
 tags={
 	"Alternative History"
 	"Translation"

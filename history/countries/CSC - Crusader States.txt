@@ -60,9 +60,13 @@ if = {
 	}
 }
 
-set_popularities = {	fascism = 34
-	democratic = 30
-	communism = 36
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1934.2.11"
+	election_frequency = 48
+	elections_allowed = no
+
+set_popularities = {	ultranationalism = 100
 }
 
 
