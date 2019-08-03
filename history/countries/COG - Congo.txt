@@ -9,7 +9,14 @@ set_technology = {
 }
 
 set_convoys = 5
-}
+
+set_politics = {
+		ruling_party = anarcho_capitalism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
 set_popularities = {
 	anarcho_capitalism = 50
 	anarcho_primitivism = 25

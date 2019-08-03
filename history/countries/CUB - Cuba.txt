@@ -10,6 +10,13 @@ set_technology = {
 set_war_support = 0.1
 set_convoys = 20
 
+set_politics = {
+		ruling_party = posadism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
 set_popularities = {
 	nazbol_monarchism = 25
 	libertarianism = 25

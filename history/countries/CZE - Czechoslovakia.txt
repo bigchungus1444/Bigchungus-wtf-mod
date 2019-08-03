@@ -22,7 +22,7 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = libertarianism
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
@@ -77,25 +77,3 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 1
 }
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
-

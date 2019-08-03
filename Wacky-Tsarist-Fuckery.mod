@@ -1,6 +1,7 @@
 ﻿name="Wacky Tsarist Fuckery Dev Build"
 path="mod/wacky-tsarist-fuckery/"
 replace_path="common/countries"
+replace_path="common/ideas"
 replace_path="common/decisions"
 replace_path="common/national_focus"
 replace_path="events"

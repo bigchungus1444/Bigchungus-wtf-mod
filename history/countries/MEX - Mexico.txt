@@ -54,12 +54,8 @@ set_politics = {
 }
 set_popularities = {
 	integralism = 10
-	radical_centrism = 0
-	anarcho_primitivism = 0
 	nazbol_monarchism = 80
 	libertarianism = 10
-	anarcho_capitalism = 0
-	posadism = 0
 }
 
 create_field_marshal = {

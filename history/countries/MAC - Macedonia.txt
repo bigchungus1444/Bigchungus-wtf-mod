@@ -47,5 +47,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalism = 100
+	ultranationalism = 60
+	libertarianism = 20
+	radical_militarism = 20
 }

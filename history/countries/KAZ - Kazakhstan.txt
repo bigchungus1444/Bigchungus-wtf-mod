@@ -64,34 +64,13 @@ set_politics = {
 	ruling_party = radical_militarism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 set_popularities = {
-	radical_militarism = 100
+	radical_militarism = 60
+	libertarianism = 20
+	ultranationalism = 20
 	}
 }
-create_country_leader = {
-	name = "Nikolay Aleksandrovich Skvortsov"
-	desc = ""
-	picture = "Portrait_KAZ_Nikolay_Skvortsov.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ilyas Zhansugurov"
-	desc = ""
-	picture = "Portrait_KAZ_Ilyas_Zhansugurov.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-
 
 
