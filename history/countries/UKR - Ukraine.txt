@@ -67,28 +67,6 @@ set_popularities = {	ultranationalism = 70	libertarianism = 15	nazbol_monarch
 }
 
 create_country_leader = {
-	name = "Kost Levytsky"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
 	name = "Stepan Bandera"
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
@@ -98,17 +76,3 @@ create_country_leader = {
 		
 	}
 }
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
-
-
-

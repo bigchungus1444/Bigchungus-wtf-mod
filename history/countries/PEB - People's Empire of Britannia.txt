@@ -4,11 +4,8 @@ oob = "PEB_1936"
 
 set_popularities = {
 	integralism = 20
-	radical_centrism = 00
-	anarcho_primitivism = 00
 	nazbol_monarchism = 70
 	libertarianism = 10
-	anarcho_capitalism = 00
 }
 set_politics = {
 	ruling_party = nazbol_monarchism
