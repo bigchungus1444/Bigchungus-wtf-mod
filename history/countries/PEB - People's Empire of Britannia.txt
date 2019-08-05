@@ -19,7 +19,7 @@ create_country_leader = {
 	desc = "POLITICS_EDWARD_VIII_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII.dds
 	expire = "1965.1.1"
-	ideology = nazbol_monarchism
+	ideology = nazbol_monarchism_subtype
 	traits = {
 		
 	}

@@ -96,6 +96,7 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
+}
 
 set_politics = {
 	ruling_party = integralism
@@ -103,7 +104,21 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {	integralism = 50	nazbol_monarchism = 50
+
+set_popularities = {
+	integralism = 60
+	nazbol_monarchism = 40
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_Britain_Neville_Chamberlain.dds" 
+	expire = "1965.1.1"
+	ideology = integralism_subtype
+	traits = {
+		
+	}
 }
 
 create_field_marshal = {

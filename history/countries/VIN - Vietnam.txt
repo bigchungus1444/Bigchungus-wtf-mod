@@ -66,13 +66,17 @@ if = {
 }
 
 set_politics = {
-	ruling_party = nazbol_monarchism
+	ruling_party = radical_centrism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	nazbol_monarchism = 100
+	radical_centrism = 75
+	posadism = 8
+	libertarianism = 11
+	radical_militarism = 4
+	ultranationalism = 2
 }
 
 
