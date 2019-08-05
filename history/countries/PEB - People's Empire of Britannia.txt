@@ -113,4 +113,3 @@ set_stability = 0.5
 
 add_ideas = {
 }
-
