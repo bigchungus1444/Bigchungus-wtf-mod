@@ -1,8 +1,8 @@
 
 state={
-	id=454
-	name="STATE_454" #Palestine
-	manpower = 500142
+	id=788
+	name="STATE_788" #Tel Aviv
+	manpower = 433000
 	
 	state_category = rural
 
@@ -12,9 +12,12 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 2
+			4206 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
-			1086 5 
+			4206 5 
 		}
 		add_core_of = OTT
 		add_core_of = PAL
@@ -22,6 +25,6 @@ state={
 	}
 
 	provinces={
-		1015 1086 4088 7176 11970 1
+		1065 1201 4206 7107
 	}
 }
