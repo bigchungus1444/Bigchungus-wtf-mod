@@ -23,6 +23,39 @@ set_popularities = {
 	radical_militarism = 20
 }
 
+create_country_leader = {
+	name = "Li Zongren"
+	desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
+	expire = "1965.1.1"
+	ideology = anarcho_capitalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Li Zongren"
+	desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
+	expire = "1965.1.1"
+	ideology = radical_militarism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Li Zongren"
+	portrait_path = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
+	traits = { defensive_doctrine trait_cautious politically_connected }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
 create_corps_commander = {
 	name = "Chen Jitang"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"

@@ -106,15 +106,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = ultranationalism
+				has_government = radical_militarism
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascism_drift_bonus
-			
+			picture = generic_fascist_drift_bonus
+		
 			modifier = {
 				ultranationalism_drift = 0.1
+				radical_militarism_drift = 0.1
 				experience_gain_army = 0.1
 			}
 		}
@@ -168,7 +170,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = posadism
 			}
 		
 			removal_cost = -1
@@ -209,7 +211,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = ultranationalism
+				has_government = radical_militarism
 			}
 			
 			removal_cost = -1
@@ -231,8 +234,9 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = posadism
+					has_government = ultranationalism
+					has_government = radical_militarism
 				}
 			}
 			
@@ -254,8 +258,9 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = posadism
+					has_government = ultranationalism
+					has_government = radical_militarism
 				}
 			}
 			
@@ -277,8 +282,9 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = posadism
+					has_government = ultranationalism
+					has_government = radical_militarism
 				}
 			}
 			
@@ -325,7 +331,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = posadism
 			}
 			
 			removal_cost = -1
@@ -867,7 +873,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = posadism
 				}
 			}
 	
@@ -953,7 +959,8 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
+					has_government = radical_militarism
 				}
 			}
 	

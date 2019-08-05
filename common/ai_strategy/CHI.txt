@@ -1,0 +1,272 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+CHI_unit_production = {
+	enable = {
+		original_tag = CHI
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 100
+	}
+	
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 75 # From 70 to 75
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = tactical_bomber
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = 0
+	}
+	
+	
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 25 # from 15 to 25
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 40 #from 50 to 40
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 35
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 25
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = ignore_army_incompetence
+		value = 50
+	}
+}
+
+CHI_armored_production = {
+	enable = {
+		original_tag = CHI
+		ai_wants_divisions > 0 #Decreasing the amount of tanks the AI wants
+	}
+	abort = {
+		ai_wants_divisions < 1 #Decreasing the amount of tanks the AI wants
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+}
+
+CHI_prio_military_even_at_peace = {
+	enable = {
+		original_tag = CHI
+	}
+	
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 50
+	}
+	
+}
+	
+CHI_china_first = { # Get involved in Chinese wars
+
+	enable = {
+		OR = {
+			original_tag = CHI
+			original_tag = GXC
+			original_tag = FJC
+			original_tag = SHC
+			original_tag = HNC
+			original_tag = YUN
+			original_tag = SCC
+			original_tag = XSM
+			original_tag = SHX
+			original_tag = SIK
+			original_tag = MEN
+			original_tag = MAN
+		}
+	}
+	
+	abort = {
+		OR = {
+			has_war_with = CHI
+			has_war_with = GXC
+			has_war_with = FJC
+			has_war_with = SHC
+			has_war_with = HNC
+			has_war_with = YUN
+			has_war_with = SCC
+			has_war_with = XSM
+			has_war_with = SHX
+			has_war_with = SIK
+			has_war_with = MEN
+			has_war_with = MAN
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = GXC			
+		value = 2000
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = CHI			
+		value = 2000
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = FJC			
+		value = 2000
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = SHC			
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = HNC			
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = YUN			
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = SCC
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = XSM			
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = SHX			
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = SIK			
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = MEN			
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire	
+		id = MAN			
+		value = 2000
+	}
+}
