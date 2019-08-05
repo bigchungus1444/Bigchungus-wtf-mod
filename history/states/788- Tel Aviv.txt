@@ -1,5 +1,5 @@
 
-state={
+state={ # Test Event
 	id=788
 	name="STATE_788" #Tel Aviv
 	manpower = 433000
