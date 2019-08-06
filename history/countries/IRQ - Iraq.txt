@@ -16,15 +16,23 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-		ruling_party = libertarianism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
+	ruling_party = libertarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 set_popularities = {
-	libertarianism = 40
-	radical_militarism = 20
-	ultranationalism = 20
-	nazbol_monarchism = 20
+	radical_centrism = 20
+	libertarianism = 80
+}
+
+create_country_leader = {
+	name = "Muhammad Najib ar-Ruba"
+	desc = "POLITICS_GHAZI_I_DESC"
+	picture = "GFX_portrait_iraq_ghazi"
+	expire = "1965.1.1"
+	ideology = libertarianism_subtype
+	traits = {
+		#
+	}
 }

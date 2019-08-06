@@ -59,6 +59,17 @@ set_popularities = {
 	posadism = 100
 }
 
+create_country_leader = {
+	name = "Juan Posadas"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_Britain_Neville_Chamberlain.dds" 
+	expire = "1965.1.1"
+	ideology = posadism_subtype
+	traits = {
+		
+	}
+}
+
 create_field_marshal = {
 	name = "Arturo Rawson"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"

@@ -71,4 +71,13 @@ set_popularities = {
 	nazbol_monarchism = 70
 }
 
-
+create_country_leader = {
+	name = "Nicholas II"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"	
+	expire = "1965.1.1"
+	ideology = nazbol_monarchism_subtype
+	traits = {
+		
+	}
+}

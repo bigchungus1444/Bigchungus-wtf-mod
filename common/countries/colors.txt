@@ -732,3 +732,8 @@ UNT	= {
 	color = rgb { 235 116 0 }
 	color_ui = rgb { 235 116 0 }	
 }	
+
+PRU	= {
+	color = rgb { 76  97  121 }
+	color_ui = rgb { 76  97  121 }	
+}	

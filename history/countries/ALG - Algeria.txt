@@ -17,3 +17,14 @@ set_politics = {
 set_popularities = {
 	radical_militarism = 100
 }
+
+create_country_leader = {
+	name = "Houari Boumediene"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_Britain_Neville_Chamberlain.dds" 
+	expire = "1965.1.1"
+	ideology = radical_militarism_subtype
+	traits = {
+		
+	}
+}

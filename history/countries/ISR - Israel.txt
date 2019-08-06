@@ -7,17 +7,25 @@ set_technology = {
 	fuel_silos = 1
 }
 
-set_convoys = 5
+set_convoys = 50
 
 set_politics = {
-		ruling_party = libertarianism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 set_popularities = {
-	radical_militarism = 25
-	libertarianism = 50
-	posadism = 25
+	libertarianism = 80
+	radical_centrism = 20
+}
+
+create_country_leader = {
+	name = "Judeo-Palestinian Council"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	ideology = libertarianism_subtype
+	traits = {
+		#
+	}
 }

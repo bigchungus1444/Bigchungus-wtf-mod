@@ -2,11 +2,6 @@
 
 oob = "PEB_1936"
 
-set_popularities = {
-	integralism = 20
-	nazbol_monarchism = 70
-	libertarianism = 10
-}
 set_politics = {
 	ruling_party = nazbol_monarchism
 	last_election = "1933.3.5"
@@ -14,17 +9,22 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_popularities = {
+	integralism = 20
+	nazbol_monarchism = 70
+	libertarianism = 10
+}
+
 create_country_leader = {
 	name = "Edward VIII"
-	desc = "POLITICS_EDWARD_VIII_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII.dds
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII.dds"
 	expire = "1965.1.1"
 	ideology = nazbol_monarchism_subtype
 	traits = {
 		
 	}
 }
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

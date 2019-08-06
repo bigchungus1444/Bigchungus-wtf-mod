@@ -20,3 +20,13 @@ set_popularities = {
 	ultranationalism = 100
 }
 
+create_country_leader = {
+	name = "Lote Savimbi"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_Britain_Neville_Chamberlain.dds" 
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		
+	}
+}

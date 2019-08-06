@@ -19,8 +19,19 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	radical_centrism = 80
-	libertarianism = 20
+	radical_centrism = 98
+	posadism = 2
+}
+
+create_country_leader = {
+	name = "W.T.Cosgrave"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = radical_centrism_subtype
+	traits = {
+		#
+	}
 }
 
 create_corps_commander = {

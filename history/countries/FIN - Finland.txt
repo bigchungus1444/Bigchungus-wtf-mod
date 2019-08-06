@@ -61,6 +61,29 @@ set_popularities = {
 	libertarianism = 30
 	radical_militarism = 70
 }
+
+create_country_leader = {
+	name = "Carl Gustaf Emil Mannerheim"
+	desc = "POLITICS_MANNERHEIM_DESC"
+	picture = "gfx/leaders/FIN/portrait_fin_carl_mannerheim.dds"
+	expire = "1965.1.1"
+	ideology = radical_militarism_subtype
+	traits = {
+		great_war_hero
+	}
+}
+
+create_country_leader = {
+	name = "Carl Gustaf Emil Mannerheim"
+	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
+	picture = "portrait_fin_carl_mannerheim.dds"
+	expire = "1965.1.1"
+	ideology = radical_militarism_subtype
+	traits = {
+		great_war_hero
+	}
+}
+
 add_ideas = {
 	sisu
 }
@@ -70,7 +93,6 @@ create_field_marshal = {
 	picture = "portrait_fin_carl_mannerheim.dds"
 	traits = { inflexible_strategist war_hero trait_cautious defensive_doctrine trickster winter_specialist }
 	skill = 5
-	id = 58
 	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 5

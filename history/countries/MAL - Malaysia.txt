@@ -77,3 +77,12 @@ set_convoys = 25
 set_popularities = {	anarcho_primitivism = 100
 }
 
+create_country_leader = {
+	name = "Anarchy"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = anarcho_primitivism_subtype
+	traits = {
+		#
+	}
+}

@@ -12,13 +12,14 @@ state={
 		#victory_points = {
 		#	11386 1
 		#}
-		owner = POL
-		controller = POL
+		owner = PRU
+		controller = PRU
 		
 		buildings = {
 			infrastructure = 6
 		}
 		add_core_of = GER
+		add_core_of = PRU
 		add_core_of = POL
 	}
 

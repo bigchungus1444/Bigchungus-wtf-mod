@@ -18,5 +18,16 @@ set_politics = {
 set_popularities = {
 	libertarianism = 60
 	integralism = 20
-	Nazbol_monarchism = 20
+	nazbol_monarchism = 20
+}
+
+create_country_leader = {
+	name = "Theodor_Herzl"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_Britain_Neville_Chamberlain.dds" 
+	expire = "1965.1.1"
+	ideology = libertarianism_subtype
+	traits = {
+		
+	}
 }

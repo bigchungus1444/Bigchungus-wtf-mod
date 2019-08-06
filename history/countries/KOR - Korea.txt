@@ -17,6 +17,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	integralism = 60
-	libertarianism = 40
+	integralism = 72
+	libertarianism = 28
+}
+
+create_country_leader = {
+	name = "Crown Prince Yi Un"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = integralism_subtype
+	traits = {
+		#
+	}
 }

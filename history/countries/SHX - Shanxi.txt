@@ -20,6 +20,16 @@ set_popularities = {
 	radical_militarism = 20
 }
 
+create_country_leader = {
+	name = "Yan Xishan"
+	desc = "POLITICS_YAN XISHAN_DESC"
+	picture = "GFX_portrait_shanxi_portrait_yan_xishan"
+	expire = "1965.1.1"
+	ideology = anarcho_capitalism_subtype
+	traits = {
+		#
+	}
+}
 
 create_corps_commander = {
 	name = "Wang Jingguo"
