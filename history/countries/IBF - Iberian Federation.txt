@@ -70,6 +70,16 @@ set_popularities = {
 	libertarianism = 25
 }
 
+create_country_leader = {
+	name = "Iberian Regency Council"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII.dds"
+	expire = "1965.1.1"
+	ideology = nazbol_monarchism_subtype
+	traits = {
+		
+	}
+
 set_convoys = 150
 set_stability = 0.5
 

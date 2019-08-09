@@ -72,6 +72,17 @@ set_popularities = {
 set_convoys = 150
 set_stability = 0.5
 
+create_country_leader = {
+	name = "Alfonso XIII"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "Portrait_Spain_Francisco_Franco.dds"
+	expire = "1965.1.1"
+	ideology = integralism_subtype
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
 	name = "José Asensio Torrado"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"

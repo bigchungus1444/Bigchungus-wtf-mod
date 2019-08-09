@@ -16,3 +16,25 @@ set_politics = {
 set_popularities = {
 	integralism = 100
 }
+
+create_country_leader = {
+	name = "Mohammed V"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = integralism_subtype
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Abd el-Krim"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	traits = { commando trickster guerilla_fighter }
+	skill = 4
+	id = 1
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
