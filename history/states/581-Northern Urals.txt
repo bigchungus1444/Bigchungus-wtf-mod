@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = EUR
+		owner = GRA
+		add_core_of = GRA
 		add_core_of = EUR
 		buildings = {
 			infrastructure = 1

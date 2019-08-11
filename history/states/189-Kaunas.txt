@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = BTU
+		owner = LBR
+		add_core_of = LBR
 		victory_points = {
 			9483 5
 		}

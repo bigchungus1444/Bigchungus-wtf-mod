@@ -7,17 +7,12 @@ state={
 	state_category = large_town
 
 	history={
-		owner = EUR
+		owner = SWA
+		add_core_of = SWA
 		add_core_of = EUR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-			}
 		}
 		victory_points = {
 			1794 1

@@ -9,7 +9,8 @@ state={
 	}
 
 	history={
-		owner = EUR
+		owner = SWA
+		add_core_of = SWA
 		add_core_of = EUR
 		victory_points = {
 			4797 3 

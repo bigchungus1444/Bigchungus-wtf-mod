@@ -759,8 +759,8 @@ GRA = {
 }
 
 GRU = {
-	color = rgb { 76  140  100 }
-	color_ui = rgb { 76  140  100 }
+	color = rgb { 31  137  44  }
+	color_ui = rgb { 31  137  44 }
 }
 
 KUR = {
@@ -804,11 +804,11 @@ CWA = {
 }
 
 ISL = {
-	color = rgb { 0  0  0 }
-	color_ui = rgb { 0  0  0 }
+	color = rgb { 76  140  100 }
+	color_ui = rgb { 76  140  100 }
 }
 
 MNR = {
-	color = rgb { 50  0  0 }
-	color_ui = rgb { 50  0  0 }
+	color = rgb { 0  51  91 }
+	color_ui = rgb { 0  51  91 }
 }
