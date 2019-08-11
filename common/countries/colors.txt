@@ -769,8 +769,8 @@ KUR = {
 }
 
 FRT = {
-	color = rgb { 250  240  180 }
-	color_ui = rgb { 250  240  180 }
+	color = rgb { 25 25 25 }
+	color_ui = rgb { 25 25 25 }
 } 
 
 COR = {
@@ -789,13 +789,13 @@ SWA = {
 }
 
 DON = {
-	color = rgb { 199  100  200 }
-	color_ui = rgb { 199  100  200 }
+	color = rgb { 247 197 0 }
+	color_ui = rgb { 247 197 0 }
 }
 
 KUB = {
-	color = rgb { 199  100  200 }
-	color_ui = rgb { 199  100  200 }
+	color = rgb { 221  19  123 }
+	color_ui = rgb { 221  19  123 }
 }
 
 CWA = {

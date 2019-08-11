@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = EUR
+		owner = CWA
+		add_core_of = CWA
 		add_core_of = EUR
 		buildings = {
 			infrastructure = 4

@@ -10,7 +10,8 @@ state={
 	state_category = town
 
 	history={
-		owner = EUR
+		owner = GRU
+		add_core_of = GRU
 		add_core_of = EUR
 		victory_points = {
 			957 15

@@ -1,0 +1,29 @@
+capital = 784
+
+oob = ""
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = nazbol_monarchism
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = {
+	nazbol_monarchism = 60
+	posadism = 20
+	libertarianism = 20
+}
