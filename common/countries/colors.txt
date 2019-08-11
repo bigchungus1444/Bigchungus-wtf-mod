@@ -737,3 +737,78 @@ PRU	= {
 	color = rgb { 76  97  121 }
 	color_ui = rgb { 76  97  121 }	
 }	
+
+LBR	= {
+	color = rgb { 200  200  100 }
+	color_ui = rgb { 200  200  100 }	
+}	
+
+CAK	= {
+	color = rgb { 160  190  150 }
+	color_ui = rgb { 160  190  150 }	
+} 
+
+BTE = {
+	color = rgb { 150  130  190 }
+	color_ui = rgb { 150  130  190 }
+}
+
+GRA = {
+	color = rgb { 76  145  100 }
+	color_ui = rgb { 76  145  100 }
+}
+
+GRU = {
+	color = rgb { 76  140  100 }
+	color_ui = rgb { 76  140  100 }
+}
+
+KUR = {
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171  190  152 }
+}
+
+FRT = {
+	color = rgb { 250  240  180 }
+	color_ui = rgb { 250  240  180 }
+} 
+
+COR = {
+	color = rgb { 60  127  100 }
+	color_ui = rgb { 60  127  100 }
+}
+
+FRS = {
+	color = rgb { 199  167  156 }
+	color_ui = rgb { 199  167  156 }
+}
+
+SWA = {
+	color = rgb { 199  200  200 }
+	color_ui = rgb { 199  200  200 }
+}
+
+DON = {
+	color = rgb { 199  100  200 }
+	color_ui = rgb { 199  100  200 }
+}
+
+KUB = {
+	color = rgb { 199  100  200 }
+	color_ui = rgb { 199  100  200 }
+}
+
+CWA = {
+	color = rgb { 199  200  200 }
+	color_ui = rgb { 199  200  200 }
+}
+
+ISL = {
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}
+
+MNR = {
+	color = rgb { 50  0  0 }
+	color_ui = rgb { 50  0  0 }
+}
