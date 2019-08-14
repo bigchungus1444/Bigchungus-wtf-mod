@@ -98,6 +98,24 @@ ideas = {
 	# Special ones that can be applied on other countries through focus system.
 	country = {
 		
+		# Modded from Generic Focus Tree
+		path_of_chaos_idea = {
+		
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.2
+			}
+		}
+		
 		received_attache = {
 			
 			allowed = {
