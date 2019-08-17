@@ -20,7 +20,6 @@ state={ # Test Event
 			4206 5 
 		}
 		add_core_of = OTT
-		add_core_of = PAL
 		add_core_of = ISR
 	}
 

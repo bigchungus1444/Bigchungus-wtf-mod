@@ -1,0 +1,86 @@
+﻿division_template = {
+	name = "Judeo-Palestinian Militia"			# Ex-Zionist/Palestinian Militia Division
+
+	division_names_group = ISR_GAR_01
+
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 } 
+	} 
+	
+	priority = 0
+}
+
+units = {
+	##### Judeo-Palestinian Defence Force (JPDF) #####
+	# Jewish Units
+	division= {	
+		name = "Haganah Militia"
+		location = 4206 # Tel Aviv
+		division_template = "Judeo-Palestinian Militia"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Irgun Militia"
+		location = 1201
+		division_template = "Judeo-Palestinian Militia"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Lehi Militia"
+		location = 7107
+		division_template = "Judeo-Palestinian Militia"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Palmach Strike Unit"	# Yea, they're bigger in this timeline. Deal with it.
+		location = 1065
+		division_template = "Judeo-Palestinian Militia"
+		start_experience_factor = 0.7
+	}
+	# Palestinian Units
+	division= {	
+		name = "Palestinian Defence Society"
+		location = 4088
+		division_template = "Judeo-Palestinian Militia"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Husayni Militia"
+		location = 1086
+		division_template = "Judeo-Palestinian Militia"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Nashashibi Militia"
+		location = 7176
+		division_template = "Judeo-Palestinian Militia"
+		start_experience_factor = 0.3
+	}
+}
+
+air_wings = {
+	### Captured Ottoman CAS Training Squadron
+	285 = {
+		CAS_equipment_1 =  {
+			owner = "OTT" 
+			amount = 24
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ISR"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+}

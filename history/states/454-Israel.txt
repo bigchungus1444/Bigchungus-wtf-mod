@@ -2,7 +2,7 @@
 state={
 	id=454
 	name="STATE_454" #Palestine
-	manpower = 500142
+	manpower = 600142
 	
 	state_category = town
 
@@ -17,7 +17,6 @@ state={
 			1086 5 
 		}
 		add_core_of = OTT
-		add_core_of = PAL
 		add_core_of = ISR
 	}
 
