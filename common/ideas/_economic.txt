@@ -39,8 +39,6 @@ ideas = {
 		
 		isolation = {
 			
-			
-			
 			allowed = {
 				always = no
 			}
@@ -147,12 +145,6 @@ ideas = {
 					has_war_support > 0.25
 					factor = 0 #don't even look at it if you could be taking partial mob
 				}
-				modifier = {
-					tag = ENG
-					has_war = no
-					date < 1937.6.1
-					factor = 0
-				}
    			}
 		}
 		
@@ -219,9 +211,11 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.5
+				NOT = { has_government = anarcho_primitivism }
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = nazbol_monarchism
+					has_government = posadism
+					has_government = radical_militarism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -295,7 +289,7 @@ ideas = {
 						ratio > 0.5
 					}
 				}
-
+				NOT = { has_government = anarcho_primitivism }
 				if = {
 					limit = {
 						original_tag = HUN
@@ -347,30 +341,6 @@ ideas = {
 					}
 				}
 
-				# Germany needs to be careful
-				modifier = {
-					factor = 0
-
-					tag = GER
-					NOT = { has_tech = volkssturm }
-					has_war = yes
-					date < 1944.01.01
-				}
-				modifier = {
-					factor = 0
-
-					tag = SOV
-					has_war = yes
-					OR = {
-						has_manpower < 2000000
-						NOT = {
-							OR = {
-								has_idea = all_adults_serve
-								has_idea = service_by_requirement
-							}
-						}
-					}									
-				}
    			}
 			
 			cost = 150
@@ -437,16 +407,7 @@ ideas = {
 		
 		export_focus = {
 			
-			available = {
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
-			}
+			available = { }
 			
 			
 			cost = 150
@@ -492,7 +453,11 @@ ideas = {
 			available = {
 				OR = {
 					AND = {
-						has_government = democratic
+						OR = {
+							has_government = radical_centrism
+							has_government = libertarianism
+							has_government = anarcho_capitalism
+						}
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -502,7 +467,13 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = democratic }
+						NOT = {
+							OR = {
+								has_government = radical_centrism
+								has_government = libertarianism
+								has_government = anarcho_capitalism
+							}
+						}
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
@@ -561,24 +532,12 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
-					has_government = fascism
-					has_government = communism
+					has_government = anarcho_primitivism
+					has_government = ultranationalism
 				}
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
-				}
-				OR = {
-					NOT = {	tag = SOV }
-					NOT = { has_opinion_modifier = MR_pact }
-				}
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 			

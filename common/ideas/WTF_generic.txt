@@ -17,7 +17,47 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = 0.2
+				posadism_drift = 0.2
+				anarcho_primitivism_drift = 0.2
+				nazbol_monarchism_drift = 0.2
+			}
+		}
+		primitive_fury_idea = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = anarcho_primitivism
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				army_core_defence_factor = 0.1
+			}
+		}
+		explain_our_beliefs_idea = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				OR = {
+					has_government = anarcho_primitivism
+					has_government = nazbol_monarchism
+					has_government = posadism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.25
+				stability_factor = 0.20
 			}
 		}
 	

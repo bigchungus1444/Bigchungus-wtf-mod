@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = generic_political_reform
 		icon = GFX_goal_generic_national_unity
-		x = 7
+		x = 8
 		y = 0
 		cost = 10
 
@@ -24,8 +24,9 @@ focus_tree = {
 	focus = {
 		id = generic_path_of_chaos
 		icon = GFX_goal_generic_national_unity
-		x = 1
-		y = 2
+		prerequisite = { focus = generic_political_reform }
+		x = 2
+		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -37,8 +38,9 @@ focus_tree = {
 	focus = {
 		id = generic_destabilize_the_nation
 		icon = GFX_goal_generic_national_unity
-		x = 1
-		y = 1
+		prerequisite = { focus = generic_path_of_chaos }
+		x = 2
+		y = 2
 		cost = 5
 
 		available = {
@@ -73,7 +75,10 @@ focus_tree = {
 	focus = {
 		id = generic_overthrow_the_capitalists
 		icon = GFX_goal_generic_national_unity
-		x = -1
+		prerequisite = { focus = generic_destabilize_the_nation }
+		mutually_exclusive = { focus = generic_collapse_of_civilization }
+		mutually_exclusive = { focus = generic_united_front }
+		x = 0
 		y = 3
 		cost = 5
 
@@ -86,7 +91,8 @@ focus_tree = {
 	focus = {
 		id = generic_the_bomb
 		icon = GFX_goal_generic_national_unity
-		x = -1
+		prerequisite = { focus = generic_overthrow_the_capitalists }
+		x = 0
 		y = 4
 		cost = 10
 
@@ -103,7 +109,10 @@ focus_tree = {
 	focus = {
 		id = generic_collapse_of_civilization
 		icon = GFX_goal_generic_national_unity
-		x = 1
+		prerequisite = { focus = generic_destabilize_the_nation }
+		mutually_exclusive = { focus = generic_overthrow_the_capitalists }
+		mutually_exclusive = { focus = generic_united_front }
+		x = 2
 		y = 3
 		cost = 5
 
@@ -116,9 +125,10 @@ focus_tree = {
 	focus = {
 		id = generic_primitive_fury
 		icon = GFX_goal_generic_national_unity
-		x = 1
+		prerequisite = { focus = generic_collapse_of_civilization }
+		x = 2
 		y = 4
-		cost = 5
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -130,7 +140,10 @@ focus_tree = {
 	focus = {
 		id = generic_united_front
 		icon = GFX_goal_generic_national_unity
-		x = 3
+		prerequisite = { focus = generic_destabilize_the_nation }
+		mutually_exclusive = { focus = generic_collapse_of_civilization }
+		mutually_exclusive = { focus = generic_overthrow_the_capitalists }
+		x = 4
 		y = 3
 		cost = 5
 
@@ -141,25 +154,27 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = generic_explain_our_beliefs
+		id = generic_for_king_and_party
 		icon = GFX_goal_generic_national_unity
-		x = 3
+		prerequisite = { focus = generic_united_front }
+		x = 4
 		y = 4
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_war_support = 0.1
 			add_stability = 0.1
+			add_war_support = 0.15
 		}
 	}
-		focus = {
-		id = generic_primitive_fury
+	focus = {
+		id = generic_explain_our_beliefs
 		icon = GFX_goal_generic_national_unity
-		x = 1
+		prerequisite = { focus = generic_for_king_and_party focus = generic_primitive_fury focus = generic_the_bomb }
+		x = 2
 		y = 5
-		cost = 5
+		cost = 10
 
 		available_if_capitulated = yes
 

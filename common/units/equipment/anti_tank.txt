@@ -2,16 +2,23 @@ equipments = {
 
 	anti_tank_equipment = {
 		year = 1934
-
 		is_archetype = yes
 		picture = archetype_anti_tank_equipment		
 		type = { 
 			anti_tank
+
 			infantry #adding infantry type
 		}
 		group_by = archetype
 		
 		interface_category = interface_category_land
+
+		upgrades = {
+			AT_reliability_upgrade
+			AT_pierce_upgrade
+			AT_HA_upgrade
+			AT_defence_upgrade
+		}
 
 		#Misc Abilities
 		reliability = 0.8
@@ -40,7 +47,6 @@ equipments = {
 
 	anti_tank_equipment_1 = {
 		year = 1936
-
 		archetype = anti_tank_equipment
 		priority = 90
 		visual_level = 0
@@ -48,7 +54,6 @@ equipments = {
 	
 	anti_tank_equipment_2 = {
 		year = 1940
-
 		archetype = anti_tank_equipment
 		parent = anti_tank_equipment_1
 		priority = 90
@@ -66,7 +71,6 @@ equipments = {
 	
 	anti_tank_equipment_3 = {
 		year = 1943
-
 		archetype = anti_tank_equipment
 		parent = anti_tank_equipment_2
 		priority = 90

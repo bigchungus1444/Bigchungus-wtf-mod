@@ -2,7 +2,6 @@ equipments = {
 
 	artillery_equipment = {
 		year = 1934
-
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
 		type = {
@@ -13,6 +12,13 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
+
+		upgrades = {
+			ART_reliability_upgrade
+			ART_SA_upgrade
+			ART_HA_upgrade
+			ART_defence_upgrade
+		}
 
 		#Misc Abilities
 		reliability = 0.8
@@ -41,7 +47,6 @@ equipments = {
 
 	artillery_equipment_1 = {
 		year = 1934
-
 		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
@@ -49,7 +54,6 @@ equipments = {
 	
 	artillery_equipment_2 = {
 		year = 1939
-
 		archetype = artillery_equipment
 		parent = artillery_equipment_1
 		priority = 50
@@ -68,7 +72,6 @@ equipments = {
 	
 	artillery_equipment_3 = {
 		year = 1942
-
 		archetype = artillery_equipment
 		parent = artillery_equipment_2
 		priority = 50
@@ -88,7 +91,6 @@ equipments = {
 	# Nebelwerfers!
 	rocket_artillery_equipment = {
 		year = 1940
-
 		is_archetype = yes
 		picture = archetype_rocket_artillery_equipment		
 		type = { 
@@ -99,6 +101,13 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
+		
+		upgrades = {
+			ART_reliability_upgrade
+			ART_SA_upgrade
+			ART_HA_upgrade
+			ART_defence_upgrade
+		}
 		
 		#Misc Abilities
 		reliability = 0.8
@@ -124,7 +133,6 @@ equipments = {
 	
 	rocket_artillery_equipment_1 = {
 		year = 1940
-
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
@@ -132,7 +140,6 @@ equipments = {
 	
 	rocket_artillery_equipment_2 = {
 		year = 1943
-
 		archetype = rocket_artillery_equipment
 		parent = rocket_artillery_equipment_1
 		priority = 60
@@ -152,7 +159,6 @@ equipments = {
 	#Katyusha 
 	motorized_rocket_equipment = {
 		year = 1934
-
 		is_archetype = yes
 		picture = archetype_motorized_rocket_equipment			
 		type = { 
@@ -163,6 +169,13 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
+		
+		upgrades = {
+			ART_reliability_upgrade
+			ART_SA_upgrade
+			ART_HA_upgrade
+			ART_defence_upgrade
+		}
 		
 		#Misc Abilities
 		reliability = 0.8
@@ -185,13 +198,11 @@ equipments = {
 			rubber = 1
 			steel = 1
 		}
-
 		fuel_consumption = 0.12
 	}
 	
 	motorized_rocket_equipment_1 = {
 		year = 1939
-
 		archetype = motorized_rocket_equipment
 		priority = 70
 		visual_level = 0
