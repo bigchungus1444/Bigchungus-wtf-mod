@@ -60,11 +60,13 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = radical_militarism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 
 set_popularities = {
-	ultranationalism = 100
+	ultranationalism = 30
+	integralism = 20
+	radical_militarism = 50
 }
