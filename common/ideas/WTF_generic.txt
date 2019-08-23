@@ -60,6 +60,115 @@ ideas = {
 				stability_factor = 0.20
 			}
 		}
+		power_of_the_individual_idea = {
+		
+			
+			allowed_civil_war = {
+				has_government = anarcho_capitalism
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		power_of_the_individual_idea = {
+		
+			
+			allowed_civil_war = {
+				has_government = radical_centrism
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			political_power_factor = 0.25
+			}
+		}
+		lassiez_faire_idea = {
+		
+			
+			allowed_civil_war = {
+				has_government = libertarianism
+			}
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = -0.1
+			}
+		}
+		for_the_people_idea = {
+			allowed_civil_war = {
+				OR = {
+					has_government = libertarianism
+					has_government = radical_centrism
+					has_government = anarcho_capitalism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.20
+				production_factory_max_efficiency_factor = 0.1
+			}
+			
+		
+		}
+		strengthen_the_nation_idea = {
+			allowed_civil_war = {
+				OR = {
+					has_government = radical_militarism
+					has_government = ultranationalism
+					has_government = integralism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.2
+				training_time_army_factor = -0.15
+			}
+			
+		
+		}
+		army_with_a_nation_idea = {
+			allowed_civil_war = {
+				OR = {
+					has_government = radical_militarism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			conscription = 0.025
+			}
+			
+		
+		}
+		blood_and_soil_idea = {
+			allowed_civil_war = {
+				OR = {
+					has_government = ultranationalism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			conscription = 0.025
+			army_core_attack_factor = 0.05
+			}
+			
+		
+		}
 	
 	political_advisor = {
 		
@@ -85,6 +194,7 @@ ideas = {
 						OR = { tag = AST tag = SAF tag = NZL tag = CAN }
 						has_dlc = "Together for Victory"
 					}
+					
 				}
 				NOT = {
 					AND = {
