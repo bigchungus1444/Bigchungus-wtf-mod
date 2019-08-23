@@ -1,0 +1,595 @@
+focus_tree = { 
+id = GEN
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = Generic 
+} 
+} 
+#Focus for Promote Liberty
+focus = { 
+id = Generic_promoteliberty
+icon = GFX_goal_unknown
+x = 8
+y = 2
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_pathoffreedom } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+OR = {
+radical_centrism > 0.4
+}
+OR = {
+anarcho_capitalism > 0.4
+}
+OR = {
+libertarianism > 0.4
+}
+ } 
+completion_reward = { 
+add_popularity = {
+ideology = radical_centrism
+popularity = 0.1
+}
+add_popularity = {
+ideology = libertarianism
+popularity = 0.1
+}
+add_popularity = {
+ideology = anarcho_capitalism
+popularity = 0.1
+}
+ } 
+
+ } 
+
+#Focus for Path of Order
+focus = { 
+id = Generic_pathoforder
+icon = GFX_goal_generic_defence
+x = 14
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_politicalreform } 
+mutually_exclusive = { focus = Generic_pathofchaos }mutually_exclusive = { focus = Generic_pathoforder focus = Generic_pathoffreedom }ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_timed_idea = { idea = path_of_order_idea days = 1095 }
+ } 
+
+ } 
+
+#Focus for Explain our beliefs
+focus = { 
+id = Generic_explainourbeliefs
+icon = GFX_goal_generic_national_unity
+x = 2
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_forkingandcountry focus = Generic_primitvefury focus = Generic_thebomb } 
+completion_reward = { 
+add_ideas = explain_our_beliefs_idea
+ } 
+
+ } 
+
+#Focus for United front
+focus = { 
+id = Generic_unitedfront
+icon = GFX_goal_generic_national_unity
+x = 4
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_destablizethenation } 
+mutually_exclusive = { focus = Generic_collapseofcivilisation } 
+mutually_exclusive = { focus = Generic_collapseofcivilisation } 
+completion_reward = { 
+set_politics = { ruling_party = nazbol_monarchism elections_allowed = no }
+ } 
+
+ } 
+
+#Focus for The bomb
+focus = { 
+id = Generic_thebomb
+icon = GFX_goal_generic_national_unity
+x = 0
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_overthrowthecapitalists } 
+mutually_exclusive = { focus = Generic_overthrowthecapitalists } 
+completion_reward = { 
+add_tech_bonus = {
+name = nuclear_bonus
+bonus = 1.0
+category = nuclear
+}
+ } 
+
+ } 
+
+#Focus for Collapse of civilisation
+focus = { 
+id = Generic_collapseofcivilisation
+icon = GFX_goal_generic_national_unity
+x = 2
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_destablizethenation } 
+mutually_exclusive = { focus = Generic_overthrowthecapitalists } 
+mutually_exclusive = { focus = Generic_overthrowthecapitalists } 
+mutually_exclusive = { focus = Generic_ } 
+completion_reward = { 
+set_politics = { ruling_party = anarcho_primitivism elections_allowed = no }
+ } 
+
+ } 
+
+#Focus for Path of Chaos
+focus = { 
+id = Generic_pathofchaos
+icon = GFX_focus_rom_parties_end
+x = 2
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_politicalreform } 
+mutually_exclusive = { focus = Generic_pathoforder } 
+mutually_exclusive = { focus = Generic_pathoffreedom } 
+completion_reward = { 
+add_timed_idea = { idea = path_of_chaos_idea days = 1095 }
+ } 
+
+ } 
+
+#Focus for Destablize the nation
+focus = { 
+id = Generic_destablizethenation
+icon = GFX_goal_generic_national_unity
+x = 2
+y = 2
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_pathofchaos } 
+available = { 
+OR = {
+posadism > 0.4
+}
+OR = {
+anarcho_primitivism > 0.4
+}
+OR = {
+nazbol_monarchism > 0.4
+}
+ } 
+completion_reward = { 
+add_popularity = {
+ideology = posadism
+popularity = 0.1
+}
+add_popularity = {
+ideology = anarcho_primitivism
+popularity = 0.1
+}
+add_popularity = {
+ideology = nazbol_monarchism
+popularity = 0.1
+}
+ } 
+
+ } 
+
+#Focus for For the people
+focus = { 
+id = Generic_forthepeople
+icon = GFX_goal_unknown
+x = 8
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_laissezfaire focus = Generic_itjustworks focus = Generic_poweroftheindividual } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = for_the_people_idea
+ } 
+
+ } 
+
+#Focus for Laissez-Faire
+focus = { 
+id = Generic_laissezfaire
+icon = GFX_goal_unknown
+x = 10
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_grandliberterianrevolt } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = lassiez_faire_idea
+ } 
+
+ } 
+
+#Focus for It just works!
+focus = { 
+id = Generic_itjustworks
+icon = GFX_goal_unknown
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_peacefultransitionofpower } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_stability = 0.05
+
+add_ideas = it_just_works_idea
+ } 
+
+ } 
+
+#Focus for Power of the individual
+focus = { 
+id = Generic_poweroftheindividual
+icon = GFX_goal_unknown
+x = 6
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_dismantlethestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_stability = 0.05
+
+add_ideas = power_of_the_individual_idea
+ } 
+
+ } 
+
+#Focus for Dismantle the state
+focus = { 
+id = Generic_dismantlethestate
+icon = GFX_goal_unknown
+x = 6
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_promoteliberty } 
+mutually_exclusive = { focus = Generic_peacefultransitionofpower } 
+mutually_exclusive = { focus = Generic_grandliberterianrevolt } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+set_politics = { ruling_party = anarcho_capitalism elections_allowed = no }
+ } 
+
+ } 
+
+#Focus for Peaceful transition of Power
+focus = { 
+id = Generic_peacefultransitionofpower
+icon = GFX_goal_unknown
+x = 8
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_promoteliberty } 
+mutually_exclusive = { focus = Generic_dismantlethestate } 
+mutually_exclusive = { focus = Generic_grandliberterianrevolt } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+set_politics = { ruling_party = radical_centrism elections_allowed = yes }
+ } 
+
+ } 
+
+#Focus for Grand liberterian revolt
+focus = { 
+id = Generic_grandliberterianrevolt
+icon = GFX_goal_unknown
+x = 10
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_promoteliberty } 
+mutually_exclusive = { focus = Generic_dismantlethestate } 
+mutually_exclusive = { focus = Generic_peacefultransitionofpower } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+set_politics = { ruling_party = libertarianism elections_allowed = yes }
+ } 
+
+ } 
+
+#Focus for Modernize industry
+focus = { 
+id = Generic_modernizeindustry
+icon = GFX_goal_unknown
+x = 2
+y = 7
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 2 
+category = industry
+}
+ } 
+
+ } 
+
+#Focus for Nationalistic Fevor
+focus = { 
+id = Generic_nationalisticfevor
+icon = GFX_goal_unknown
+x = 14
+y = 2
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_pathoforder } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = {
+ideology = ultranationalism
+popularity = 0.1
+}
+add_popularity = {
+ideology = integralism
+popularity = 0.1
+}
+add_popularity = {
+ideology = radical_militarism
+popularity = 0.1
+}
+ } 
+
+ } 
+
+#Focus for Path of freedom
+focus = { 
+id = Generic_pathoffreedom
+icon = GFX_goal_support_democracy
+x = 8
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_politicalreform } 
+mutually_exclusive = { focus = Generic_pathoforder } 
+mutually_exclusive = { focus = Generic_pathofchaos } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_timed_idea = { idea = path_of_freedom_idea days = 1095 }
+ } 
+
+ } 
+
+#Focus for For king and country!
+focus = { 
+id = Generic_forkingandcountry
+icon = GFX_goal_generic_national_unity
+x = 4
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_unitedfront } 
+completion_reward = { 
+add_stability = 0.1
+add_war_support = 0.15
+ } 
+
+ } 
+
+#Focus for Primitve Fury
+focus = { 
+id = Generic_primitvefury
+icon = GFX_goal_generic_national_unity
+x = 2
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_collapseofcivilisation } 
+completion_reward = { 
+add_war_support = 0.05
+add_ideas = primitive_fury_idea
+ } 
+
+ } 
+
+#Focus for Overthrow the capitalists!
+focus = { 
+id = Generic_overthrowthecapitalists
+icon = GFX_goal_generic_national_unity
+x = 0
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_destablizethenation } 
+mutually_exclusive = { focus = Generic_collapseofcivilisation } 
+mutually_exclusive = { focus = Generic_unitedfront } 
+completion_reward = { 
+set_politics = { ruling_party = posadism elections_allowed = no }
+ } 
+
+ } 
+
+#Focus for Political reform
+focus = { 
+id = Generic_politicalreform
+icon = GFX_goal_generic_national_unity
+x = 8
+y = 0
+cost = 10
+available_if_capitulated = yes 
+completion_reward = { 
+add_political_power = 150
+ } 
+
+ } 
+
+#Focus for Blood and soil
+focus = { 
+id = Generic_bloodandsoil
+icon = GFX_goal_unknown
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_marchonthecapital } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = blood_and_soil_idea
+ } 
+
+ } 
+
+#Focus for Strengthen the nation
+focus = { 
+id = Generic_strengthenthenation
+icon = GFX_goal_unknown
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_armywithanation focus = Generic_RdLnKNFV focus = Generic_bloodandsoil } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crown the monarch
+focus = { 
+id = Generic_crownthemonarch
+icon = GFX_goal_unknown
+x = 14
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_nationalisticfevor } 
+mutually_exclusive = { focus = Generic_armycoup } 
+mutually_exclusive = { focus = Generic_marchonthecapital } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+set_politics = { ruling_party = integralism elections_allowed = no }
+ } 
+
+ } 
+
+#Focus for March on the capital
+focus = { 
+id = Generic_marchonthecapital
+icon = GFX_goal_unknown
+x = 16
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_nationalisticfevor } 
+mutually_exclusive = { focus = Generic_crownthemonarch } 
+mutually_exclusive = { focus = Generic_armycoup } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+set_politics = { ruling_party = ultranationalist elections_allowed = no }
+ } 
+
+ } 
+
+#Focus for Army with a nation
+focus = { 
+id = Generic_armywithanation
+icon = GFX_goal_unknown
+x = 12
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_armycoup } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+experience_gain_army = 0.1
+
+
+add_ideas = army_with_a_nation_idea
+ } 
+
+ } 
+
+#Focus for Army Coup
+focus = { 
+id = Generic_armycoup
+icon = GFX_goal_unknown
+x = 12
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_nationalisticfevor } 
+mutually_exclusive = { focus = Generic_crownthemonarch } 
+mutually_exclusive = { focus = Generic_marchonthecapital } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+set_politics = { ruling_party = radical_militarism elections_allowed = no }
+ } 
+
+ } 
+
+#Focus for For king and country!
+focus = { 
+id = Generic_forkingandcountry
+icon = GFX_goal_unknown
+x = 14
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_crownthemonarch } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_stability = 0.15
+war_support_factor = 0.1
+ } 
+
+ } 
+
+#End of focuses 
+ }
